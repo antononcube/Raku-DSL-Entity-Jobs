@@ -43,7 +43,6 @@ grammar DSL::Entity::English::Jobs::Grammar
         <pipeline-command> |
         <job-entity-command> |
         <recommend-for-job-command> |
-        <cooking-food-entity-command> |
         <data-query-command>
     }
 
@@ -51,7 +50,7 @@ grammar DSL::Entity::English::Jobs::Grammar
 
     rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ 'for' | 'that' 'fit' ] <job-entity-command> }
 
-    rule data-query-command { [ 'how' 'many' | 'what' 'count' ] .'of' <job-title-entity> 'is' 'in' 'my' [ 'database' | 'catalog' ] }
+    rule data-query-command { [ 'how' 'many' | 'what' 'count' ] .'of' <job-entity-command> 'is' 'in' 'my' [ 'database' | 'catalog' ] }
 
 }
 

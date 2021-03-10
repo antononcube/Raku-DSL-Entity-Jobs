@@ -3,7 +3,8 @@ use v6;
 use DSL::Shared::Roles::English::PipelineCommand;
 use DSL::Shared::Utilities::FuzzyMatching;
 
-role DSL::Entity::English::Jobs::Grammar::JobTitles {
+role DSL::Entity::English::Jobs::Grammar::JobTitles
+        does DSL::Shared::Roles::English::PipelineCommand {
     rule job-title {
         <adjunct-job-title>    |
         <android-job-title>    |
