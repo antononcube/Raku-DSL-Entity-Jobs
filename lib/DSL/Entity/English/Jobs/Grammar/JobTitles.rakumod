@@ -3,8 +3,26 @@ use v6;
 use DSL::Shared::Roles::English::PipelineCommand;
 use DSL::Shared::Utilities::FuzzyMatching;
 
+#my Str $fileName = $*CWD.Str ~ '/resources/' ~ 'JobTitles.txt';
+my $fileName = %?RESOURCES<JobTitles.txt>;
+
+#say '?RESOURCES<JobTitles.txt> :', $fileName;
+
+my Str @jobTitles = $fileName.lines;
+
+#say @jobTitles[1 .. 12].join("; ");
+
+my Set $knownJobTitles = Set(@jobTitles);
+
+sub is-known-job-title( Str:D $phrase --> Bool:D ) {
+    $phrase (elem) $knownJobTitles
+}
+
 role DSL::Entity::English::Jobs::Grammar::JobTitles
         does DSL::Shared::Roles::English::PipelineCommand {
+    rule fast-job-title { <known-job-title> || <job-title> }
+    regex known-job-title { ([ [\w]+ % \h+ ]+) <?{ is-known-job-title( $0.Str ) }>}
+    #rule known-two-word-job-title { ([\w]+) ([\w]+) <?{ is-known-job-title( $0.Str ~ ' ' ~ $1.Str) }>}
     rule job-title {
         <adjunct-job-title>    |
         <android-job-title>    |

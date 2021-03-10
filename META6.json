@@ -21,7 +21,9 @@
   ],
   "build-depends": [],
   "test-depends": [],
-  "resources": [],
+  "resources": [
+    "JobTitles.txt"
+  ],
   "tags": [
     "job",
     "job title",

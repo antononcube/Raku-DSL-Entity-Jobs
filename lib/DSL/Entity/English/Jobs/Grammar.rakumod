@@ -46,7 +46,7 @@ grammar DSL::Entity::English::Jobs::Grammar
         <data-query-command>
     }
 
-    rule job-entity-command { <job-title> }
+    rule job-entity-command { <fast-job-title> }
 
     rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ 'for' | 'that' 'fit' ] <job-entity-command> }
 
