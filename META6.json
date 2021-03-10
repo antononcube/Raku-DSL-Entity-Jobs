@@ -1,0 +1,37 @@
+{
+  "perl": "6.d",
+  "name": "DSL::Entity::English::Jobs",
+  "api": "1",
+  "auth": "github:antononcube",
+  "version": "0.1.0",
+  "description": "Grammars for jobs entities: titles, skills, acronyms, keywords, etc.",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "license": "GPL-3.0-or-later",
+  "provides": {
+    "DSL::Entity::English::FoodEntities": "lib/DSL/Entity/English/Jobs.rakumod",
+    "DSL::Entity::English::Jobs::Grammar": "lib/DSL/Entity/English/Jobs/Grammar.rakumod",
+    "DSL::Entity::English::Jobs::Grammar::JobTitles": "lib/DSL/Entity/English/Jobs/Grammar/JobTitles.rakumod",
+    "DSL::Entity::English::Jobs::Actions::Bulgarian::Standard": "lib/DSL/Entity/English/Jobs/Actions/Bulgarian/Standard.rakumod",
+    "DSL::Entity::English::Jobs::Actions::WL::System": "lib/DSL/Entity/English/Jobs/Actions/WL/System.rakumod"
+  },
+  "depends": [
+    "DSL::Shared"
+  ],
+  "build-depends": [],
+  "test-depends": [],
+  "resources": [],
+  "tags": [
+    "job",
+    "job title",
+    "skill",
+    "job skill",
+    "recruiting",
+    "entity",
+    "parser",
+    "interpreter",
+    "ner"
+  ],
+  "source-url": "https://github.com/antononcube/Raku-DSL-Entity-English-Jobs.git"
+}
