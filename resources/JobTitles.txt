@@ -812,7 +812,7 @@ adjoint
 adjoint administratif
 adjoint danimation
 adjoint de direction
-adjoint  directeur
+adjoint directeur
 adjoint du patrimoine
 adjointe
 adjointe administrative
@@ -821,7 +821,7 @@ adjointe aux ressources humaines
 adjointe aux ventes
 adjointe de direction
 adjointe technique
-adjoint  maire
+adjoint maire
 adjoint technique
 adj professor
 adjudicator
@@ -1735,7 +1735,7 @@ agente aux communications
 agente de aduanas
 agente de aeroporto
 agente de atendimento
-agente de atendimento  cliente
+agente de atendimento cliente
 agente de bureau
 agente de call center
 agente de carga
@@ -1756,7 +1756,7 @@ agente de negocios
 agente de operaciones
 agente de pasaje
 agente de pesquisa
-agente de pesquisa  mapeamento
+agente de pesquisa mapeamento
 agente de portaria
 agente de prensa
 agente de promotion
@@ -1898,7 +1898,7 @@ aide cuisinier
 aidedecamp
 aide de cuisine
 aide documentaliste
-aide  domicile
+aide domicile
 aide magasinier
 aide medico psychologique
 aidesoignant
@@ -2242,7 +2242,7 @@ analista de aseguramiento de calidad
 analista de aseguramiento de la calidad
 analista de asuntos regulatorios
 analista de atendimento
-analista de atendimento  cliente
+analista de atendimento cliente
 analista de atendimento pleno
 analista de auditoria
 analista de backoffice
@@ -2274,8 +2274,8 @@ analista de contabilidad
 analista de contabilidade
 analista de contas
 analista de contas medicas
-analista de contas  pagar
-analista de contas  receber
+analista de contas pagar
+analista de contas receber
 analista de contratos
 analista de contratos pleno
 analista de control
@@ -2301,7 +2301,7 @@ analista de crm
 analista de cuenta
 analista de cuentas
 analista de cuentas corrientes
-analista de cuentas  pagar
+analista de cuentas pagar
 analista de cuentas por cobrar
 analista de cuentas por pagar
 analista de cumplimiento
@@ -2413,14 +2413,14 @@ analista de pcp pleno
 analista de personal
 analista de pesquisa
 analista de pesquisa de mercado
-analista de pesquisa  desenvolvimento
+analista de pesquisa desenvolvimento
 analista de pessoal
 analista de planeamiento
 analista de planeamiento comercial
 analista de planeamiento financiero
 analista de planejamento
 analista de planejamento comercial
-analista de planejamento  controle
+analista de planejamento controle
 analista de planejamento de materiais
 analista de planejamento financeiro
 analista de planejamento junior
@@ -2450,7 +2450,7 @@ analista de projeto
 analista de projetos
 analista de projetos junior
 analista de projetos pleno
-analista de projetos  processos
+analista de projetos processos
 analista de projetos senior
 analista de proyecto
 analista de proyectos
@@ -2460,7 +2460,7 @@ analista de qualidade
 analista de qualidade de software
 analista de qualidade junior
 analista de qualidade pleno
-analista de qualidade  processos
+analista de qualidade processos
 analista de rands
 analista de reclamos
 analista de reclutamiento
@@ -2535,19 +2535,19 @@ analista de soporte
 analista de soporte tecnico
 analista de suporte
 analista de suporte bilingue
-analista de suporte  cliente
+analista de suporte cliente
 analista de suporte comercial
 analista de suporte computacional
 analista de suporte de sistemas
 analista de suporte de ti
 analista de suporte em ti
 analista de suporte erp
-analista de suporte  infraestrutura
+analista de suporte infraestrutura
 analista de suporte junior
 analista de suporte pl
 analista de suporte pleno
 analista de suporte senior
-analista de suporte  sistemas
+analista de suporte sistemas
 analista de suporte tecnico
 analista de suporte ti
 analista de supply chain
@@ -2576,7 +2576,7 @@ analista de trafico
 analista de transporte
 analista de transportes
 analista de treinamento
-analista de treinamento  desenvolvimento
+analista de treinamento desenvolvimento
 analista de treinamento pleno
 analista de validaciones
 analista de vendas
@@ -5319,7 +5319,7 @@ assistente de almoxarifado
 assistente de arquitetura
 assistente de arte
 assistente de atendimento
-assistente de atendimento  cliente
+assistente de atendimento cliente
 assistente de auditoria
 assistente de backoffice
 assistente de biblioteca
@@ -5331,8 +5331,8 @@ assistente de comercio exterior
 assistente de compras
 assistente de contabilidade
 assistente de contas
-assistente de contas  pagar
-assistente de contas  receber
+assistente de contas pagar
+assistente de contas receber
 assistente de contratos
 assistente de controladoria
 assistente de controle de qualidade
@@ -5364,7 +5364,7 @@ assistente de logistica
 assistente de loja
 assistente de marketing
 assistente de marketing digital
-assistente de marketing  vendas
+assistente de marketing vendas
 assistente de materiais
 assistente de meio ambiente
 assistente de merchandising
@@ -5382,7 +5382,7 @@ assistente de publicidade
 assistente de qualidade
 assistente de recursos humanos
 assistente de relacionamento
-assistente de relacionamento com  cliente
+assistente de relacionamento com cliente
 assistente de reservas
 assistente de rh
 assistente de sac
@@ -6515,7 +6515,7 @@ auxiliar de arquitetura
 auxiliar de arquivo
 auxiliar de atendimento
 auxiliar de auditoria
-auxiliar de ayuda  domicilio
+auxiliar de ayuda domicilio
 auxiliar de biblioteca
 auxiliar de bibliotecas
 auxiliar de bodega
@@ -6533,8 +6533,8 @@ auxiliar de comercio exterior
 auxiliar de compras
 auxiliar de contabilidad
 auxiliar de contabilidade
-auxiliar de contas  pagar
-auxiliar de contas  receber
+auxiliar de contas pagar
+auxiliar de contas receber
 auxiliar de control
 auxiliar de controladoria
 auxiliar de control de calidad
@@ -6726,7 +6726,7 @@ avisbud
 aviseur technique
 av manager
 avocat
-avocat  barreau de paris
+avocat barreau de paris
 avocat droit social
 avocate
 avocat en droit social
@@ -11572,9 +11572,9 @@ clarinetist
 clarinet teacher
 clark
 class assistant
-class  cdl driver
+class cdl driver
 class coordinator
-class  driver
+class driver
 classical guitarist
 classical guitar teacher
 classical singer
@@ -11601,7 +11601,7 @@ classroom instructor
 classroom teacher
 classroom volunteer
 class teacher
-class  truck driver
+class truck driver
 clay modeler
 clean
 cleaner
@@ -13973,7 +13973,7 @@ consulente it
 consulente junior
 consulente libero professionista
 consulente marketing
-consulente marketing  comunicazione
+consulente marketing comunicazione
 consulente sap
 consulente senior
 consulente software
@@ -14325,7 +14325,7 @@ consultor independiente
 consultor industrial
 consultor informatico
 consultor inmobiliario
-consultor  instrutor
+consultor instrutor
 consultor internacional
 consultor interno
 consultorio
@@ -14929,7 +14929,7 @@ coordenador
 coordenadora
 coordenadora da qualidade
 coordenadora de atendimento
-coordenadora de atendimento  cliente
+coordenadora de atendimento cliente
 coordenadora de call center
 coordenadora de compras
 coordenadora de contas
@@ -15022,7 +15022,7 @@ coordenador de pcp
 coordenador de pesquisa
 coordenador de pessoal
 coordenador de planejamento
-coordenador de planejamento  controle
+coordenador de planejamento controle
 coordenador de planejamento financeiro
 coordenador de ppcp
 coordenador de processos
@@ -15030,7 +15030,7 @@ coordenador de produto
 coordenador de produtos
 coordenador de projeto
 coordenador de projetos
-coordenador de projetos  obras
+coordenador de projetos obras
 coordenador de qsms
 coordenador de qualidade
 coordenador de recursos humanos
@@ -15177,7 +15177,7 @@ coordinador de rh
 coordinador de rrhh
 coordinador de salud ocupacional
 coordinador de seguridad
-coordinador de seguridad  higiene
+coordinador de seguridad higiene
 coordinador de seguridad industrial
 coordinador de seguridad y salud
 coordinador de seguridad y salud laboral
@@ -18956,7 +18956,7 @@ director adjunto
 director administration
 director administrative services
 director administrativo
-director administrativo  financeiro
+director administrativo financeiro
 director administrativo financiero
 director administrativo y financiero
 director advanced technology
@@ -20546,7 +20546,7 @@ diretora de recursos humanos
 diretora de rh
 diretora de vendas
 diretora escolar
-diretor comercial  marketing
+diretor comercial marketing
 diretor de arte
 diretor de arte junior
 diretor de atendimento
@@ -20580,7 +20580,7 @@ diretor industrial
 diretor ti
 direttivo
 direttore
-direttore commerciale  marketing
+direttore commerciale marketing
 direttore del personale
 direttore di sala
 direttore marketing
@@ -20592,9 +20592,9 @@ dirigeante
 dirigent
 dirigente
 dirigente medico
-dirigente medico anestesia  rianimazione
-dirigente medico di  livello
-dirigente medico  livello
+dirigente medico anestesia rianimazione
+dirigente medico di livello
+dirigente medico livello
 dirigente medico psichiatra
 dirut
 disability
@@ -20994,7 +20994,7 @@ docente lingua inglese
 docent engels
 docente part
 docente por horas
-docente  tempo indeterminato
+docente tempo indeterminato
 docente tiempo completo
 docente titular
 docente tutor
@@ -22904,7 +22904,7 @@ engenheiro de minas
 engenheiro de obra
 engenheiro de obras
 engenheiro de planejamento
-engenheiro de planejamento  controle
+engenheiro de planejamento controle
 engenheiro de processo
 engenheiro de processos
 engenheiro de produto
@@ -23111,8 +23111,8 @@ english editor
 english educator
 english facilitator
 english faculty
-english  foreign language instructor
-english  foreign language teacher
+english foreign language instructor
+english foreign language teacher
 english french teacher
 english german teacher
 english history teacher
@@ -23138,9 +23138,9 @@ english literature teacher
 english professor
 english reading teacher
 english science teacher
-english  second language instructor
-english  second language teacher
-english  second language tutor
+english second language instructor
+english second language teacher
+english second language tutor
 english social studies teacher
 english spanish teacher
 englishspanish translator
@@ -24032,7 +24032,7 @@ execution manager
 execution trader
 executiva
 executiva de atendimento
-executiva de atendimento  relacionamento
+executiva de atendimento relacionamento
 executiva de conta
 executiva de contas
 executiva de negocios
@@ -24371,7 +24371,7 @@ executive vice president sales
 executive vice president sales marketing
 executivo
 executivo de atendimento
-executivo de atendimento  relacionamento
+executivo de atendimento relacionamento
 executivo de conta
 executivo de contas
 executivo de negocios
@@ -25051,7 +25051,7 @@ fellow researcher
 fellowship
 fellowship coordinator
 femme de chambre
-femme  foyer
+femme foyer
 fence installer
 fencer
 fencing coach
@@ -25355,7 +25355,7 @@ filialleitung
 filing
 filing assistant
 filing clerk
-fille  pair
+fille pair
 filler operator
 film
 film and video editor
@@ -25962,7 +25962,7 @@ fish wildlife biologist
 fisiatra
 fisico medico
 fisioterapeuta
-fisioterapeuta  instrutora de pilates
+fisioterapeuta instrutora de pilates
 fisioterapia
 fisioterapista
 fisker
@@ -26193,7 +26193,7 @@ flutist
 fly fishing guide
 flying instructor
 flying officer
-f  manager
+f manager
 fmcg
 fm consultant
 fm engineer
@@ -28181,7 +28181,7 @@ gerente adm y finanzas
 gerente business
 gerente call center
 gerente comercial de vendas
-gerente comercial  marketing
+gerente comercial marketing
 gerente comercial nacional
 gerente comercial regional
 gerente comercial y marketing
@@ -28198,7 +28198,7 @@ gerente de administracion y finanzas
 gerente de adm y finanzas
 gerente de aeroporto
 gerente de agencia
-gerente de alimentos  bebidas
+gerente de alimentos bebidas
 gerente de alimentos y bebidas
 gerente de almacen
 gerente de area
@@ -28207,7 +28207,7 @@ gerente de aseguramiento de la calidad
 gerente de asuntos legales
 gerente de asuntos regulatorios
 gerente de atendimento
-gerente de atendimento  cliente
+gerente de atendimento cliente
 gerente de auditoria
 gerente de auditoria interna
 gerente de banco
@@ -28351,7 +28351,7 @@ gerente de pessoal
 gerente de planeacion
 gerente de planejamento
 gerente de planejamento comercial
-gerente de planejamento  controle
+gerente de planejamento controle
 gerente de planejamento financeiro
 gerente de planta
 gerente de plaza
@@ -28442,7 +28442,7 @@ gerente de unidade
 gerente de unidade operacional
 gerente de varejo
 gerente de vendas
-gerente de vendas  marketing
+gerente de vendas marketing
 gerente de venta
 gerente de ventas
 gerente de ventas corporativas
@@ -35157,7 +35157,7 @@ jefe de compras
 jefe de compras y logistica
 jefe de comunicaciones
 jefe de contabilidad
-jefe de contabilidad  impuestos
+jefe de contabilidad impuestos
 jefe de contabilidad y finanzas
 jefe de contratos
 jefe de control de calidad
@@ -35280,7 +35280,7 @@ jefe de salud ocupacional
 jefe de seccion
 jefe de sector
 jefe de seguridad
-jefe de seguridad  higiene
+jefe de seguridad higiene
 jefe de seguridad industrial
 jefe de seguridad y medio ambiente
 jefe de seguridad y salud ocupacional
@@ -35339,7 +35339,7 @@ jeugdreclasseerder
 jeugdtrainer
 jeugdverpleegkundige
 jeugdwerker
-jeune fille  pair
+jeune fille pair
 jeweler
 jewellery
 jewellery consultant
@@ -37571,10 +37571,10 @@ lettings manager
 lettings negotiator
 level artist
 level designer
-level  fieldwork
-level  fieldwork student
+level fieldwork
+level fieldwork student
 level support
-level  technician
+level technician
 level v executive consultant
 leveraged finance
 lexicographer
@@ -38380,13 +38380,13 @@ long term substitute teacher
 loodgieter
 loodsmedewerker
 looking
-looking  challenge
+looking challenge
 looking challenges
 looking employment
-looking  job
+looking job
 looking job opportunities
 looking opportunities
-looking  opportunity
+looking opportunity
 loonadministrateur
 loopbaanadviseur
 loopbaanbegeleider
@@ -39737,7 +39737,7 @@ marketing communication trainee
 marketing community relations
 marketing community relations intern
 marketing community relations manager
-marketing  comunicazione
+marketing comunicazione
 marketing consultant
 marketing consultant contract
 marketing consultant intern
@@ -40022,7 +40022,7 @@ marketing training manager
 marketing tutor
 marketing und kommunikation
 marketing und vertrieb
-marketing  vendas
+marketing vendas
 marketing vertrieb
 marketing volunteer
 marketing writer
@@ -41533,7 +41533,7 @@ metrology technician
 metro reporter
 metselaar
 metteur en scene
-metteur  point
+metteur point
 meubelmaker
 mevr
 mevrouw
@@ -41946,7 +41946,7 @@ module lead
 module leader
 module manager
 moeder
-m  officer
+m officer
 mold design engineer
 mold designer
 mold engineer
@@ -45233,8 +45233,8 @@ part
 part accountant
 part administrator
 part analyst
-part  architect
-part  architectural assistant
+part architect
+part architectural assistant
 part assistant
 part assistant manager
 part associate
@@ -46088,7 +46088,7 @@ personal development
 personal development coach
 personaldisponent
 personaldisponentin
-personal docente  investigador
+personal docente investigador
 personal driver
 personalentwicklerin
 personalentwicklung
