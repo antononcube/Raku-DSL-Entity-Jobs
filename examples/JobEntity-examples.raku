@@ -10,10 +10,10 @@ say $pCOMMAND.parse('freelance web content writer', rule => 'job-entity-command'
 
 say $pCOMMAND.parse('perl programmer', rule => 'job-entity-command');
 
-say $pCOMMAND.parse('director of contracts', rule => 'job-entity-command');
+say $pCOMMAND.parse('directr of contracts', rule => 'job-entity-command');
 
 #
-#say $pCOMMAND.parse('i want talent for java arhitect');
+say $pCOMMAND.parse('i want talent for java arhitect');
 
 #
 #say "=" x 60;

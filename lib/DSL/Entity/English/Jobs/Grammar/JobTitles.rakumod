@@ -15,14 +15,23 @@ my Str @jobTitles = $fileName.lines;
 my Set $knownJobTitles = Set(@jobTitles);
 
 sub is-known-job-title( Str:D $phrase --> Bool:D ) {
-    $phrase (elem) $knownJobTitles
+    if $phrase (elem) $knownJobTitles {
+        return True
+    } else {
+        for edit-candidates($phrase) -> $var {
+            if $var (elem) $knownJobTitles {
+                warn "Misspelling of $var as $phrase.";
+                return True
+            }
+        }
+    }
+    False
 }
 
 role DSL::Entity::English::Jobs::Grammar::JobTitles
         does DSL::Shared::Roles::English::PipelineCommand {
-    rule fast-job-title { <known-job-title> || <job-title> }
-    regex known-job-title { ([ [\w]+ % \h+ ]+) <?{ is-known-job-title( $0.Str ) }>}
-    #rule known-two-word-job-title { ([\w]+) ([\w]+) <?{ is-known-job-title( $0.Str ~ ' ' ~ $1.Str) }>}
+    rule job-title-faster-match { <job-title-known> || <job-title> }
+    rule job-title-known { ([ [\w]+ ]+) <?{ is-known-job-title( $0.Str ) }>}
     rule job-title {
         <adjunct-job-title>    |
         <android-job-title>    |

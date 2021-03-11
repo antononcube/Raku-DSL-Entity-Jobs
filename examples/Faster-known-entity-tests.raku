@@ -45,9 +45,7 @@ say "-" x 40;
 $start = now;
 my @res2 = do for @tests -> $jt {
     quietly {
-        my Bool $res = so $pCOMMAND.parse($jt, rule => 'job-entity-command');
-        if !$res {say $jt}
-        $res
+        so $pCOMMAND.parse($jt, rule => 'job-entity-command')
     }
 };
 
