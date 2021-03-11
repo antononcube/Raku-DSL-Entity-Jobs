@@ -30,7 +30,7 @@ say 'java developer' (elem) $knownJobTitles;
 ##===========================================================
 say "-" x 40;
 my $start = now;
-my Int $n = 10_000;
+my Int $n = 1_000;
 my @tests = @jobTitles.roll($n);
 my @res = do for @tests -> $jt { $jt (elem) $knownJobTitles };
 my $end = now;
@@ -60,6 +60,7 @@ say @res2.classify({ so $_ }).pairs.map({ $_.key => $_.value.elems });
 say "-" x 40;
 $start = now;
 my Str @tests2 = @tests.map( { remove( $_, [$_.chars.rand.Int] ) } );
+#my Str @tests2 = ['jav programer', 'directr of productio', 'veb designner'];
 
 my @res3 = do for @tests2 -> $jt {
     quietly {
