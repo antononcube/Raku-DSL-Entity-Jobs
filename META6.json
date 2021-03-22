@@ -10,9 +10,9 @@
   ],
   "license": "GPL-3.0-or-later",
   "provides": {
-    "DSL::Entity::English::FoodEntities": "lib/DSL/Entity/English/Jobs.rakumod",
+    "DSL::Entity::English::Jobs": "lib/DSL/Entity/English/Jobs.rakumod",
     "DSL::Entity::English::Jobs::Grammar": "lib/DSL/Entity/English/Jobs/Grammar.rakumod",
-    "DSL::Entity::English::Jobs::Grammar::JobTitles": "lib/DSL/Entity/English/Jobs/Grammar/JobTitles.rakumod",
+    "DSL::Entity::English::Jobs::Grammar::EntityNames": "lib/DSL/Entity/English/Jobs/Grammar/EntityNames.rakumod",
     "DSL::Entity::English::Jobs::Actions::Bulgarian::Standard": "lib/DSL/Entity/English/Jobs/Actions/Bulgarian/Standard.rakumod",
     "DSL::Entity::English::Jobs::Actions::WL::System": "lib/DSL/Entity/English/Jobs/Actions/WL/System.rakumod"
   },
@@ -22,7 +22,8 @@
   "build-depends": [],
   "test-depends": [],
   "resources": [
-    "JobTitles.txt"
+    "JobTitles.txt",
+    "JobSkills.txt"
   ],
   "tags": [
     "job",

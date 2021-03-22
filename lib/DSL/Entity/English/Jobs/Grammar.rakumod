@@ -1,7 +1,7 @@
 =begin comment
 #==============================================================================
 #
-#   Job enities grammar in Raku
+#   Job entities grammar in Raku
 #   Copyright (C) 2021  Anton Antonov
 #
 #   This program is free software: you can redistribute it and/or modify
@@ -33,11 +33,11 @@ use v6;
 use DSL::Shared::Roles::PredicateSpecification;
 use DSL::Shared::Roles::ErrorHandling;
 
-use DSL::Entity::English::Jobs::Grammar::JobTitles;
+use DSL::Entity::English::Jobs::Grammar::EntityNames;
 
 grammar DSL::Entity::English::Jobs::Grammar
         does DSL::Shared::Roles::ErrorHandling
-        does DSL::Entity::English::Jobs::Grammar::JobTitles {
+        does DSL::Entity::English::Jobs::Grammar::EntityNames {
     # TOP
     rule TOP {
         <pipeline-command> |
@@ -46,7 +46,7 @@ grammar DSL::Entity::English::Jobs::Grammar
         <data-query-command>
     }
 
-    rule job-entity-command { <job-title-faster-match> }
+    regex job-entity-command { <entity-job-title> | <entity-job-skill> }
 
     rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ 'for' | 'that' 'fit' ] <job-entity-command> }
 
