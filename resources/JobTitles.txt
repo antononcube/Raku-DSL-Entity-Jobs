@@ -10010,6 +10010,8 @@ cctv technician
 ccu registered nurse
 cdd analyst
 c developer
+c++ developer
+c# developer
 cdl driver
 cdl truck driver
 cdm coordinator
@@ -16433,6 +16435,10 @@ crystal reports developer
 csc manager
 c software developer
 c software engineer
+c++ software developer
+c++ software engineer
+c# software developer
+c# software engineer
 csr agent
 csr and agent
 csr and sales
@@ -35038,7 +35044,6 @@ jardineiro
 jardinera
 jardinero
 jardinier
-java
 java analyst
 java and jee developer
 java android developer
