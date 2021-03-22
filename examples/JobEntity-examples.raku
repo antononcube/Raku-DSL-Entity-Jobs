@@ -19,6 +19,8 @@ say $pCOMMAND.parse('i want talent for java architect');
 
 say $pCOMMAND.parse('i want talent with .net framework and java');
 
+#say $pCOMMAND.subparse('i want talent with .net framework and java for the job software architect');
+
 #
 #say "=" x 60;
 #
