@@ -6,14 +6,18 @@ my $pCOMMAND = DSL::Entity::English::Jobs::Grammar;
 
 #use Grammar::Tracer;
 
-say $pCOMMAND.parse('freelance web content writer', rule => 'job-entity-command');
+say $pCOMMAND.parse('freelance web content writer', rule => 'job-entity-spec-list');
 
-say $pCOMMAND.parse('perl programmer', rule => 'job-entity-command');
+say $pCOMMAND.parse('perl programmer', rule => 'job-entity-spec-list');
 
-say $pCOMMAND.parse('directr of contracts', rule => 'job-entity-command');
+say $pCOMMAND.parse('directr of contracts', rule => 'job-entity-spec-list');
+
+say $pCOMMAND.parse('asp .net', rule => 'job-entity-spec-list');
 
 #
-say $pCOMMAND.parse('i want talent for java arhitect');
+say $pCOMMAND.parse('i want talent for java architect');
+
+say $pCOMMAND.parse('i want talent with .net framework and java');
 
 #
 #say "=" x 60;

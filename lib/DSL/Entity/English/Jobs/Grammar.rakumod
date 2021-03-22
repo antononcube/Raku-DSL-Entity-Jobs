@@ -41,14 +41,16 @@ grammar DSL::Entity::English::Jobs::Grammar
     # TOP
     rule TOP {
         <pipeline-command> |
-        <job-entity-command> |
+        <job-entity-spec-list> |
         <recommend-for-job-command> |
         <data-query-command>
     }
 
-    regex job-entity-command { <entity-job-title> | <entity-job-skill> }
+    regex job-entity-spec { <entity-job-title> | <entity-job-skill> }
 
-    rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ 'for' | 'that' 'fit' ] <job-entity-command> }
+    regex job-entity-spec-list { <job-entity-spec>+ % <.list-separator> }
+
+    rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ <for-preposition> | <with-preposition> | 'that' 'fit'] <job-entity-spec-list> }
 
     rule data-query-command { [ 'how' 'many' | 'what' 'count' ] .'of' <job-entity-command> 'is' 'in' 'my' [ 'database' | 'catalog' ] }
 
