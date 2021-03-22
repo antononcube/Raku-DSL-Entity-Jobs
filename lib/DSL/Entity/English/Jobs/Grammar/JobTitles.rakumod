@@ -1,3 +1,8 @@
+
+##===========================================================
+## Not used -- kept as an example alternative implementation.
+##===========================================================
+
 use v6;
 
 use DSL::Shared::Roles::English::PipelineCommand;
