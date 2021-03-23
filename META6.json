@@ -14,7 +14,8 @@
     "DSL::Entity::English::Jobs::Grammar": "lib/DSL/Entity/English/Jobs/Grammar.rakumod",
     "DSL::Entity::English::Jobs::Grammar::EntityNames": "lib/DSL/Entity/English/Jobs/Grammar/EntityNames.rakumod",
     "DSL::Entity::English::Jobs::Actions::Bulgarian::Standard": "lib/DSL/Entity/English/Jobs/Actions/Bulgarian/Standard.rakumod",
-    "DSL::Entity::English::Jobs::Actions::WL::System": "lib/DSL/Entity/English/Jobs/Actions/WL/System.rakumod"
+    "DSL::Entity::English::Jobs::Actions::WL::System": "lib/DSL/Entity/English/Jobs/Actions/WL/System.rakumod",
+    "DSL::Entity::English::Jobs::ResourceAccess": "lib/DSL/Entity/English/Jobs/ResourceAccess.rakumod"
   },
   "depends": [
     "DSL::Shared"
