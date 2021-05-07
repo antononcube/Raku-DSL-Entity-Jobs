@@ -30,10 +30,11 @@ say "=" x 60;
 
 my @testCommands = (
 'freelance web content writer',
+'.net framework, java',
 '.net framework, java, software architect',
 'freelance web content writer, .net programmer',
+'.net programmer and freelance web content writer',
 'freelance web content writer and .net programmer'
-
 );
 
 my @targets = ('WL-System');

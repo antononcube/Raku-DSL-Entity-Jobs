@@ -9,12 +9,15 @@ my DSL::Entity::English::Jobs::ResourceAccess $resources.instance;
 role DSL::Entity::English::Jobs::Grammar::EntityNames
         does DSL::Shared::Roles::English::PipelineCommand {
 
-    regex entity-job-title {
-        ( <.word-value>+ % \h+ ) <?{ $resources.known-name('JobTitles', $0.Str.lc) }>
+    regex skill-name-part {
+        [ <.alnum> | '-' | '.' | '+' | '#' ]* <.alnum> | <.alnum>
     }
 
-    regex skill-name-part { [ <.alnum> | '-' | '.' | '+' | '#' ]* <.alnum> | <.alnum> }
+    regex entity-job-title {
+        ( <skill-name-part>+ % \h+ ) <?{ $resources.known-name('Title', $0.Str.lc) }>
+    }
+
     regex entity-job-skill {
-        ( <.skill-name-part>+ % \h+ ) <?{ $resources.known-name('JobSkills', $0.Str.lc) }>
+        ( <skill-name-part>+ % \h+ ) <?{ $resources.known-name('Skill', $0.Str.lc) }>
     }
 }

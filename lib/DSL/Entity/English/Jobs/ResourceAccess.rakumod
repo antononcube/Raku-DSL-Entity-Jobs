@@ -64,6 +64,15 @@ class DSL::Entity::English::Jobs::ResourceAccess {
     ##========================================================
     ## Access
     ##========================================================
+    method is-known-name-word(Str:D $word) {
+        my Bool $res = False;
+        for %knownNameWords.keys -> $c {
+            $res = known-string(%knownNameWords{$c}, $word, :bool, :!warn);
+            last when $res
+        }
+        $res
+    }
+
     method known-name-word(Str:D $class, Str:D $word, Bool :$bool = True, Bool :$warn = True) {
         known-string(%knownNameWords{$class}, $word, :$bool, :$warn)
     }
@@ -71,6 +80,26 @@ class DSL::Entity::English::Jobs::ResourceAccess {
     #-----------------------------------------------------------
     method known-name(Str:D $class, Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
         known-phrase(%knownNames{$class}, %knownNameWords{$class}, $phrase, :$bool, :$warn)
+    }
+
+    #-----------------------------------------------------------
+    method known-title(Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
+        ## If the tile candidate $phrase is a known skill, then return False/Nil.
+        if $phrase (elem) %knownNames{'Skill'} {
+            $bool ?? False !! Nil
+        } else {
+            self.known-name('Title', $phrase, :$bool, :$warn)
+        }
+    }
+
+    #-----------------------------------------------------------
+    method known-skill(Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
+        ## If the skill candidate $phrase is a known title, then return False/Nil.
+        if $phrase (elem) %knownNames{'Title'} {
+            $bool ?? False !! Nil
+        } else {
+            self.known-name('Skill', $phrase, :$bool, :$warn)
+        }
     }
 
     #-----------------------------------------------------------
