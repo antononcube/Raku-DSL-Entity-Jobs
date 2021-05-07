@@ -5,6 +5,7 @@ class DSL::Entity::English::Jobs::ResourceAccess {
     ##========================================================
     ## Data
     ##========================================================
+    my Hash %nameToEntityID{Str};
     my Set %knownNames{Str};
     my Set %knownNameWords{Str};
 
@@ -42,11 +43,18 @@ class DSL::Entity::English::Jobs::ResourceAccess {
         #say "Number of calls to .make $numberOfMakeCalls";
 
         #-----------------------------------------------------------
-        for <JobSkills JobTitles> -> $fn {
-            my $fileName = %?RESOURCES{$fn ~ '.txt'};
-            my Str @countryNames = $fileName.lines;
-            %knownNames.push( $fn => Set( @countryNames.map(*.lc) ) );
-            %knownNameWords.push( $fn => Set(@countryNames.map({ $_.split(/\h+/) }).flat.trim.lc) );
+        for <Skill Title> -> $fn {
+            my $fileName = %?RESOURCES{'Job' ~ $fn ~ 'ToEntityID_EN.csv'};
+            my Str @nameIDPairs = $fileName.lines;
+
+            my %nameRules = @nameIDPairs.map({ $_.split(',') }).flat;
+            %nameRules = %nameRules.keys.map(*.lc) Z=> %nameRules.values;
+
+            %nameToEntityID.push( $fn => %nameRules );
+
+            %knownNames.push( $fn => Set(%nameRules) );
+
+            %knownNameWords.push( $fn => Set(%nameRules.keys.map({ $_.split(/h+/) }).flat) );
         }
 
         #-----------------------------------------------------------
@@ -65,4 +73,9 @@ class DSL::Entity::English::Jobs::ResourceAccess {
         known-phrase(%knownNames{$class}, %knownNameWords{$class}, $phrase, :$bool, :$warn)
     }
 
+    #-----------------------------------------------------------
+    method name-to-entity-id(Str:D $class, Str:D $phrase, Bool :$warn = False) {
+        my $name = self.known-name($class, $phrase.lc, :!bool, :$warn);
+        $name ?? %nameToEntityID{$class}{$name} !! Nil
+    }
 }

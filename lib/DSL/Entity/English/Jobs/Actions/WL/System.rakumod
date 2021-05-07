@@ -32,14 +32,35 @@ use v6;
 
 use DSL::Entity::English::Jobs::Grammar;
 use DSL::Shared::Actions::English::WL::PipelineCommand;
-#use DSL::Entity::English::Jobs::Actions::WL::FoodEntities;
+
+my DSL::Entity::English::Jobs::ResourceAccess $resources.instance;
 
 class DSL::Entity::English::Jobs::Actions::WL::System
         is DSL::Shared::Actions::English::WL::PipelineCommand {
 
-    # method TOP($/) { make $/.values[0].made; }
+    ##========================================================
+    ## Grammar methods
+    ##========================================================
 
-    method TOP($/) { make 'Not implemented.'; }
+    method TOP($/) {
+        make $/.values[0].made;
+    }
 
-    method job-entity { make 'Entity["JavaDeveloper"]'; }
+    method job-entity-spec($/) {
+        make $/.values[0].made;
+    }
+
+    method job-entity-spec-list($/) {
+        make $<job-entity-spec>>>.made.join(', ');
+    }
+
+    method entity-job-title($/) {
+        my $ename = $resources.known-name('Title', $/.Str.lc, :!bool, :!warn);
+        make '"' ~ $ename.wordcase ~ '"';
+    }
+
+    method entity-job-skill($/) {
+        my $ename = $resources.known-name('Skill', $/.Str.lc, :!bool, :!warn);
+        make '"' ~ $ename.wordcase ~ '"';
+    }
 }

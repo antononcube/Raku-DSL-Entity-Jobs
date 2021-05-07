@@ -46,11 +46,11 @@ grammar DSL::Entity::English::Jobs::Grammar
         <data-query-command>
     }
 
-    regex job-entity-spec { <entity-job-title> | <entity-job-skill> }
+    rule job-entity-spec { <entity-job-title> | <entity-job-skill> }
 
-    regex job-entity-spec-list { <job-entity-spec>+ % <.list-separator> }
+    rule job-entity-spec-list { <job-entity-spec>+ % <.list-separator> }
 
-    rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruits' | 'people'] [ <for-preposition> | <with-preposition> | 'that' 'fit'] <job-entity-spec-list> }
+    rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruitas' | 'people'] [ <for-preposition> | <with-preposition> | 'that' 'fit'] <job-entity-spec-list> }
 
     rule data-query-command { [ 'how' 'many' | 'what' 'count' ] .'of' <job-entity-command> 'is' 'in' 'my' [ 'database' | 'catalog' ] }
 

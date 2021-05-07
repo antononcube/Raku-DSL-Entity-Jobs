@@ -23,8 +23,8 @@
   "build-depends": [],
   "test-depends": [],
   "resources": [
-    "JobTitles.txt",
-    "JobSkills.txt"
+    "JobSkillToEntityID_EN.csv",
+    "JobTitleToEntityID_EN.csv"
   ],
   "tags": [
     "job",
