@@ -1,4 +1,4 @@
-# DSL::Entity::Jobs
+# Raku DSL::Entity::Jobs package
 
 This Raku package has grammars for parsing job entities and related sub-entities: 
 titles, skills, acronyms, keywords.  
@@ -21,9 +21,9 @@ The textual data is taken from different projects posted at
   
     - [ ] [Careerbuilder Job Listing 2020](https://data.world/promptcloud/careerbuilder-job-listing-2020)
     
-- [ ] Job Skills
+- [X] Job Skills
     
-    - [ ] [US jobs on Dice.com](https://data.world/promptcloud/us-jobs-on-dice-com)
+    - [X] [US jobs on Dice.com](https://data.world/promptcloud/us-jobs-on-dice-com)
     
 - [ ] Job Acronyms
     
