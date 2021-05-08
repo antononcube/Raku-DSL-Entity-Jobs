@@ -1,12 +1,12 @@
 use lib './lib';
 use lib '.';
-use DSL::Entity::English::Jobs;
+use DSL::Entity::Jobs;
 
-my $pCOMMAND = DSL::Entity::English::Jobs::Grammar;
+my $pCOMMAND = DSL::Entity::Jobs::Grammar;
 
 #use Grammar::Tracer;
 
-#my DSL::Entity::English::Jobs::ResourceAccess $resourceObj;
+#my DSL::Entity::Jobs::ResourceAccess $resourceObj;
 #my Str $query = 'freelance web content writer';
 #
 #say $query, ':', $resourceObj.known-name('Title', $query.lc);

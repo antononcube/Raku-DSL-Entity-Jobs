@@ -1,33 +1,33 @@
 
 =begin pod
 
-=head1 DSL::Entity::English::Jobs
+=head1 DSL::Entity::Jobs
 
-C<DSL::Entity::English::Jobs> package has grammar and action classes for the parsing and
+C<DSL::Entity::Jobs> package has grammar and action classes for the parsing and
 interpretation of natural language commands that specify classification workflows.
 
 =head1 Synopsis
 
-    use DSL::Entity::English::Jobs;
+    use DSL::Entity::Jobs;
     my $rcode = ToJobEntityCode('use dfTitanic; split data in training and testing parts with ratio 0.7; make a classifier; show roc curves');
 
 =end pod
 
-unit module DSL::Entity::English::Jobs;
+unit module DSL::Entity::Jobs;
 
 use DSL::Shared::Utilities::MetaSpecsProcessing;
 
-use DSL::Entity::English::Jobs::Grammar;
-use DSL::Entity::English::Jobs::Actions::WL::System;
+use DSL::Entity::Jobs::Grammar;
+use DSL::Entity::Jobs::Actions::WL::System;
 
-use DSL::Entity::English::Jobs::Actions::Bulgarian::Standard;
+use DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 
 #-----------------------------------------------------------
 my %targetToAction =
-    "Mathematica"      => DSL::Entity::English::Jobs::Actions::WL::System,
-    "WL"               => DSL::Entity::English::Jobs::Actions::WL::System,
-    "WL-System"        => DSL::Entity::English::Jobs::Actions::WL::System,
-    "Bulgarian"        => DSL::Entity::English::Jobs::Actions::Bulgarian::Standard;
+    "Mathematica"      => DSL::Entity::Jobs::Actions::WL::System,
+    "WL"               => DSL::Entity::Jobs::Actions::WL::System,
+    "WL-System"        => DSL::Entity::Jobs::Actions::WL::System,
+    "Bulgarian"        => DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 
 my %targetToSeparator{Str} =
     "Julia"            => "\n",
@@ -52,7 +52,7 @@ multi ToJobEntityCode ( Str $command where not has-semicolon($command), Str $tar
 
     die 'Unknown target.' unless %targetToAction{$target}:exists;
 
-    my $match = DSL::Entity::English::Jobs::Grammar.parse($command.trim, actions => %targetToAction{$target} );
+    my $match = DSL::Entity::Jobs::Grammar.parse($command.trim, actions => %targetToAction{$target} );
     die 'Cannot parse the given command.' unless $match;
     return $match.made;
 }

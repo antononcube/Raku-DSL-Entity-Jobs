@@ -2,11 +2,11 @@ use v6;
 
 use DSL::Shared::Roles::English::PipelineCommand;
 use DSL::Shared::Utilities::FuzzyMatching;
-use DSL::Entity::English::Jobs::ResourceAccess;
+use DSL::Entity::Jobs::ResourceAccess;
 
-my DSL::Entity::English::Jobs::ResourceAccess $resources.instance;
+my DSL::Entity::Jobs::ResourceAccess $resources.instance;
 
-role DSL::Entity::English::Jobs::Grammar::EntityNames
+role DSL::Entity::Jobs::Grammar::EntityNames
         does DSL::Shared::Roles::English::PipelineCommand {
 
     regex skill-name-part {

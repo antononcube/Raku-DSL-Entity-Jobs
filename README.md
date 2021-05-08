@@ -1,4 +1,4 @@
-# DSL::Entity::English::Jobs
+# DSL::Entity::Jobs
 
 This Raku package has grammars for parsing job entities and related sub-entities: 
 titles, skills, acronyms, keywords.  
@@ -66,7 +66,11 @@ say $pCOMMAND.parse('i want talent for freelance web content writer');
 ### Other entity Raku spackages
 
 [AAp1] Anton Antonov,
-[DSL::Entity::English::Foods](https://github.com/antononcube/Raku-DSL-Entity-English-Foods),
+[DSL::Entity::Foods](https://github.com/antononcube/Raku-DSL-Entity-Foods),
 (2021),
 [GitHub/antononcube](https://github.com/antononcube).
 
+[AAp2] Anton Antonov,
+[DSL::Entity::Geographics](https://github.com/antononcube/Raku-DSL-Entity-Geographics),
+(2021),
+[GitHub/antononcube](https://github.com/antononcube).

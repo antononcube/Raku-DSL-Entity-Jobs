@@ -1,7 +1,7 @@
 =begin comment
 #==============================================================================
 #
-#   Food Entities Bulgarian DSL actions in Raku (Perl 6)
+#   Food Entities WL-System actions in Raku (Perl 6)
 #   Copyright (C) 2021  Anton Antonov
 #
 #   This program is free software: you can redistribute it and/or modify
@@ -29,20 +29,38 @@
 =end comment
 
 use v6;
-use DSL::Entity::English::Jobs::Grammar;
 
+use DSL::Entity::Jobs::Grammar;
 use DSL::Shared::Actions::English::WL::PipelineCommand;
-use DSL::Shared::Actions::CommonStructures;
 
-unit module DSL::Entity::English::Jobs::Actions::Bulgarian::Standard;
+my DSL::Entity::Jobs::ResourceAccess $resources.instance;
 
-class DSL::Entity::English::Jobs::Actions::Bulgarian::Standard
-        is DSL::Shared::Actions::CommonStructures {
+class DSL::Entity::Jobs::Actions::WL::System
+        is DSL::Shared::Actions::English::WL::PipelineCommand {
 
-    # method TOP($/) { make $/.values[0].made; }
+    ##========================================================
+    ## Grammar methods
+    ##========================================================
 
     method TOP($/) {
-        make 'Not implemented.';
+        make $/.values[0].made;
     }
 
+    method job-entity-spec($/) {
+        make $/.values[0].made;
+    }
+
+    method job-entity-spec-list($/) {
+        make $<job-entity-spec>>>.made.join(', ');
+    }
+
+    method entity-job-title($/) {
+        my $ename = $resources.known-name('Title', $/.Str.lc, :!bool, :!warn);
+        make '"' ~ $ename.wordcase ~ '"';
+    }
+
+    method entity-job-skill($/) {
+        my $ename = $resources.known-name('Skill', $/.Str.lc, :!bool, :!warn);
+        make '"' ~ $ename.wordcase ~ '"';
+    }
 }

@@ -33,11 +33,11 @@ use v6;
 use DSL::Shared::Roles::PredicateSpecification;
 use DSL::Shared::Roles::ErrorHandling;
 
-use DSL::Entity::English::Jobs::Grammar::EntityNames;
+use DSL::Entity::Jobs::Grammar::EntityNames;
 
-grammar DSL::Entity::English::Jobs::Grammar
+grammar DSL::Entity::Jobs::Grammar
         does DSL::Shared::Roles::ErrorHandling
-        does DSL::Entity::English::Jobs::Grammar::EntityNames {
+        does DSL::Entity::Jobs::Grammar::EntityNames {
     # TOP
     rule TOP {
         <pipeline-command> |

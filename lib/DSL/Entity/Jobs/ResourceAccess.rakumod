@@ -1,7 +1,7 @@
 use DSL::Shared::Utilities::FuzzyMatching;
 use DSL::Shared::Utilities::MetaSpecsProcessing;
 
-class DSL::Entity::English::Jobs::ResourceAccess {
+class DSL::Entity::Jobs::ResourceAccess {
     ##========================================================
     ## Data
     ##========================================================
@@ -13,7 +13,7 @@ class DSL::Entity::English::Jobs::ResourceAccess {
     ## BUILD
     ##========================================================
     # We create a lexical variable in the class block that holds our single instance.
-    my DSL::Entity::English::Jobs::ResourceAccess $instance = Nil;
+    my DSL::Entity::Jobs::ResourceAccess $instance = Nil;
 
     my Int $numberOfInstances = 0;
 
@@ -27,7 +27,7 @@ class DSL::Entity::English::Jobs::ResourceAccess {
 
     submethod instance {
 
-        $instance = DSL::Entity::English::Jobs::ResourceAccess.bless unless $instance;
+        $instance = DSL::Entity::Jobs::ResourceAccess.bless unless $instance;
 
         if $numberOfInstances == 0 {
             $instance.make()

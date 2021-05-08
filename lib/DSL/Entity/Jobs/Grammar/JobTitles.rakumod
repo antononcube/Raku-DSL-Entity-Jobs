@@ -23,7 +23,7 @@ sub known-job-title(Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
     known-phrase( $knownJobTitles, $knownJobTitleWords, $phrase, :$bool, :$warn )
 }
 
-role DSL::Entity::English::Jobs::Grammar::JobTitles
+role DSL::Entity::Jobs::Grammar::JobTitles
         does DSL::Shared::Roles::English::PipelineCommand {
     rule job-title-faster-match {
         <job-title-known>

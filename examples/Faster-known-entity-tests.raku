@@ -1,9 +1,9 @@
 #!/usr/bin/env perl6
 use lib './lib';
 use lib '.';
-use DSL::Entity::English::Jobs;
+use DSL::Entity::Jobs;
 
-my $pCOMMAND = DSL::Entity::English::Jobs::Grammar;
+my $pCOMMAND = DSL::Entity::Jobs::Grammar;
 
 ##==========================================================
 sub remove( Str:D $str is copy, @indices --> Str:D) {

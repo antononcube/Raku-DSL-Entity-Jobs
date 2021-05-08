@@ -1,6 +1,6 @@
 {
   "perl": "6.d",
-  "name": "DSL::Entity::English::Jobs",
+  "name": "DSL::Entity::Jobs",
   "api": "1",
   "auth": "github:antononcube",
   "version": "0.1.0",
@@ -10,12 +10,12 @@
   ],
   "license": "GPL-3.0-or-later",
   "provides": {
-    "DSL::Entity::English::Jobs": "lib/DSL/Entity/English/Jobs.rakumod",
-    "DSL::Entity::English::Jobs::Grammar": "lib/DSL/Entity/English/Jobs/Grammar.rakumod",
-    "DSL::Entity::English::Jobs::Grammar::EntityNames": "lib/DSL/Entity/English/Jobs/Grammar/EntityNames.rakumod",
-    "DSL::Entity::English::Jobs::Actions::Bulgarian::Standard": "lib/DSL/Entity/English/Jobs/Actions/Bulgarian/Standard.rakumod",
-    "DSL::Entity::English::Jobs::Actions::WL::System": "lib/DSL/Entity/English/Jobs/Actions/WL/System.rakumod",
-    "DSL::Entity::English::Jobs::ResourceAccess": "lib/DSL/Entity/English/Jobs/ResourceAccess.rakumod"
+    "DSL::Entity::Jobs": "lib/DSL/Entity/Jobs.rakumod",
+    "DSL::Entity::Jobs::Grammar": "lib/DSL/Entity/Jobs/Grammar.rakumod",
+    "DSL::Entity::Jobs::Grammar::EntityNames": "lib/DSL/Entity/Jobs/Grammar/EntityNames.rakumod",
+    "DSL::Entity::Jobs::Actions::Bulgarian::Standard": "lib/DSL/Entity/Jobs/Actions/Bulgarian/Standard.rakumod",
+    "DSL::Entity::Jobs::Actions::WL::System": "lib/DSL/Entity/Jobs/Actions/WL/System.rakumod",
+    "DSL::Entity::Jobs::ResourceAccess": "lib/DSL/Entity/Jobs/ResourceAccess.rakumod"
   },
   "depends": [
     "DSL::Shared"
@@ -37,5 +37,5 @@
     "interpreter",
     "ner"
   ],
-  "source-url": "https://github.com/antononcube/Raku-DSL-Entity-English-Jobs.git"
+  "source-url": "https://github.com/antononcube/Raku-DSL-Entity-Jobs.git"
 }
