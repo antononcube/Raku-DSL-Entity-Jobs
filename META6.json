@@ -8,7 +8,7 @@
   "authors": [
     "Anton Antonov"
   ],
-  "license": "GPL-3.0-or-later",
+  "license": "Artistic-2.0",
   "provides": {
     "DSL::Entity::Jobs": "lib/DSL/Entity/Jobs.rakumod",
     "DSL::Entity::Jobs::Grammar": "lib/DSL/Entity/Jobs/Grammar.rakumod",
