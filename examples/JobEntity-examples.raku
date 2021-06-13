@@ -6,7 +6,7 @@ my $pCOMMAND = DSL::Entity::Jobs::Grammar;
 
 #use Grammar::Tracer;
 
-#my DSL::Entity::Jobs::ResourceAccess $resourceObj;
+my DSL::Entity::Jobs::ResourceAccess $resourceObj.instance;
 #my Str $query = 'freelance web content writer';
 #
 #say $query, ':', $resourceObj.known-name('Title', $query.lc);
@@ -21,34 +21,41 @@ my $pCOMMAND = DSL::Entity::Jobs::Grammar;
 #
 #say $pCOMMAND.parse('i want talent for java architect');
 #
-#say $pCOMMAND.parse('i want talent with .net framework, java and java archtect');
 #
 #say $pCOMMAND.subparse('i want talent with .net framework and java for the job software architect');
 
+my $tstart = now;
+say $pCOMMAND.parse('i want talent with software architect, net framework, c, java');
+say "Parsing time: {now - $tstart}";
 
-say "=" x 60;
+$tstart = now;
+say $pCOMMAND.parse('i want talent with .net framework, c++, java, and software architect');
+say "Parsing time: {now - $tstart}";
 
-my @testCommands = (
-'freelance web content writer',
-'.net framework, java',
-'.net framework, java, software architect',
-'freelance web content writer, .net programmer',
-'.net programmer and freelance web content writer',
-'freelance web content writer and .net programmer'
-);
-
-my @targets = ('WL-System');
-
-for @testCommands -> $c {
-    say "=" x 30;
-    say $c;
-    for @targets -> $t {
-        say '-' x 30;
-        say $t;
-        say '-' x 30;
-        my $start = now;
-        my $res = ToJobEntityCode($c, $t);
-        say "time:", now - $start;
-        say $res;
-    }
-}
+#
+#say "=" x 60;
+#
+#my @testCommands = (
+#'freelance web content writer',
+#'.net framework, java',
+#'.net framework, java, software architect',
+#'freelance web content writer, .net programmer',
+#'.net programmer and freelance web content writer',
+#'freelance web content writer and .net programmer'
+#);
+#
+#my @targets = ('WL-System');
+#
+#for @testCommands -> $c {
+#    say "=" x 30;
+#    say $c;
+#    for @targets -> $t {
+#        say '-' x 30;
+#        say $t;
+#        say '-' x 30;
+#        my $start = now;
+#        my $res = ToJobEntityCode($c, $t);
+#        say "time:", now - $start;
+#        say $res;
+#    }
+#}
