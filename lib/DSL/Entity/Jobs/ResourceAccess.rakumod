@@ -1,13 +1,23 @@
 use DSL::Shared::Utilities::FuzzyMatching;
 use DSL::Shared::Utilities::MetaSpecsProcessing;
+use DSL::Shared::Entity::ResourceAccess;
 
-class DSL::Entity::Jobs::ResourceAccess {
+class DSL::Entity::Jobs::ResourceAccess
+        is DSL::Shared::Entity::ResourceAccess {
+    #-----------------------------------------------------------
+    # OVERRIDE-START
+    #-----------------------------------------------------------
+
     ##========================================================
     ## Data
     ##========================================================
-    my Hash %nameToEntityID{Str};
-    my Set %knownNames{Str};
-    my Set %knownNameWords{Str};
+    my Hash %nameToEntityID{Str} = %();
+    my Set %knownNames{Str} = %();
+    my Set %knownNameWords{Str} = %();
+
+    method getNameToEntityID( --> Hash) { %nameToEntityID }
+    method getKnownNames( --> Hash) { %knownNames }
+    method getKnownNameWords( --> Hash) { %knownNameWords }
 
     ##========================================================
     ## BUILD
@@ -25,6 +35,7 @@ class DSL::Entity::Jobs::ResourceAccess {
 
     method new {!!!}
 
+    #| Singleton instance.
     submethod instance {
 
         $instance = DSL::Entity::Jobs::ResourceAccess.bless unless $instance;
@@ -38,54 +49,24 @@ class DSL::Entity::Jobs::ResourceAccess {
         $instance
     }
 
-    method make() {
-        $numberOfMakeCalls += 1;
-        #say "Number of calls to .make $numberOfMakeCalls";
-
-        #-----------------------------------------------------------
-        for <Skill Title> -> $fn {
-            my $fileName = %?RESOURCES{'Job' ~ $fn ~ 'ToEntityID_EN.csv'};
-            my Str @nameIDPairs = $fileName.lines;
-
-            my %nameRules = @nameIDPairs.map({ $_.split(',') }).flat;
-            %nameRules = %nameRules.keys.map(*.lc) Z=> %nameRules.values;
-
-            %nameToEntityID.push( $fn => %nameRules );
-
-            %knownNames.push( $fn => Set(%nameRules) );
-
-            %knownNameWords.push( $fn => Set(%nameRules.keys.map({ $_.split(/h+/) }).flat) );
-        }
-
-        #-----------------------------------------------------------
-        self
-    }
-
-    ##========================================================
-    ## Access
-    ##========================================================
-    method is-known-name-word(Str:D $word) {
-        my Bool $res = False;
-        for %knownNameWords.keys -> $c {
-            $res = known-string(%knownNameWords{$c}, $word, :bool, :!warn);
-            last when $res
-        }
-        $res
-    }
-
-    method known-name-word(Str:D $class, Str:D $word, Bool :$bool = True, Bool :$warn = True) {
-        known-string(%knownNameWords{$class}, $word, :$bool, :$warn)
+    #| Override the parent class function in order to call
+    #| DSL::Shared::Entity::ResourceAccess.make()
+    #| with the correct file names.
+    method get-resource-files( --> Hash) {
+        my @fileNames = <JobSkillToEntityID_EN.csv JobTitleToEntityID_EN.csv>;
+        my %resources = <Skill Title> Z=> @fileNames;
+        %resources = %resources.map({ $_.key => %?RESOURCES{$_.value} });
+        return %resources;
     }
 
     #-----------------------------------------------------------
-    method known-name(Str:D $class, Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
-        known-phrase(%knownNames{$class}, %knownNameWords{$class}, $phrase, :$bool, :$warn)
-    }
+    # OVERRIDE-END
+    #-----------------------------------------------------------
 
     #-----------------------------------------------------------
     method known-title(Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
         ## If the tile candidate $phrase is a known skill, then return False/Nil.
-        if $phrase (elem) %knownNames{'Skill'} {
+        if $phrase (elem) self.getKnownNames(){'Skill'} {
             $bool ?? False !! Nil
         } else {
             self.known-name('Title', $phrase, :$bool, :$warn)
@@ -95,16 +76,10 @@ class DSL::Entity::Jobs::ResourceAccess {
     #-----------------------------------------------------------
     method known-skill(Str:D $phrase, Bool :$bool = True, Bool :$warn = True) {
         ## If the skill candidate $phrase is a known title, then return False/Nil.
-        if $phrase (elem) %knownNames{'Title'} {
+        if $phrase (elem) self.getKnownNames(){'Title'} {
             $bool ?? False !! Nil
         } else {
             self.known-name('Skill', $phrase, :$bool, :$warn)
         }
-    }
-
-    #-----------------------------------------------------------
-    method name-to-entity-id(Str:D $class, Str:D $phrase, Bool :$warn = False) {
-        my $name = self.known-name($class, $phrase.lc, :!bool, :$warn);
-        $name ?? %nameToEntityID{$class}{$name} !! Nil
     }
 }
