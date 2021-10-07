@@ -55,12 +55,12 @@ class DSL::Entity::Jobs::Actions::WL::System
     }
 
     method entity-job-title($/) {
-        my $ename = $resources.known-name('Title', $/.Str.lc, :!bool, :!warn);
-        make '"' ~ $ename.wordcase ~ '"';
+        my $nm = $resources.name-to-entity-id('Title', $/.Str.lc, :!warn);
+        make '"' ~ $nm ~ '"';
     }
 
     method entity-job-skill($/) {
-        my $ename = $resources.known-name('Skill', $/.Str.lc, :!bool, :!warn);
-        make '"' ~ $ename.wordcase ~ '"';
+        my $nm = $resources.name-to-entity-id('Skill', $/.Str.lc, :!warn);
+        make '"' ~ $nm ~ '"';
     }
 }
