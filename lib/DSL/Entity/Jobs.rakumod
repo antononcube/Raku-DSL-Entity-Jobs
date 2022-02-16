@@ -23,21 +23,25 @@ use DSL::Entity::Jobs::Actions::WL::System;
 use DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 
 #-----------------------------------------------------------
-my %targetToAction =
+my %targetToAction{Str} =
     "Mathematica"      => DSL::Entity::Jobs::Actions::WL::System,
     "WL"               => DSL::Entity::Jobs::Actions::WL::System,
     "WL-System"        => DSL::Entity::Jobs::Actions::WL::System,
     "Bulgarian"        => DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 
-my %targetToSeparator{Str} =
+my %targetToAction2{Str} = %targetToAction.grep({ $_.key.contains('-') }).map({ $_.key.subst('-', '::').Str => $_.value }).Hash;
+%targetToAction = |%targetToAction , |%targetToAction2;
+
+my Str %targetToSeparator{Str} =
     "Julia"            => "\n",
-    "Julia-DataFrames" => "\n",
     "R"                => " ;\n",
-    "Mathematica"      => "\n",
+    "Mathematica"      => ";\n",
     "WL"               => ";\n",
-    "WL-ClCon"         => " ==>\n",
     "WL-System"        => ";\n",
     "Bulgarian"        => "\n";
+
+my Str %targetToSeparator2{Str} = %targetToSeparator.grep({ $_.key.contains('-') }).map({ $_.key.subst('-', '::').Str => $_.value.Str }).Hash;
+%targetToSeparator = |%targetToSeparator , |%targetToSeparator2;
 
 #-----------------------------------------------------------
 my DSL::Entity::Jobs::ResourceAccess $resourceObj;
