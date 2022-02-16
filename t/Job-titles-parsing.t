@@ -8,8 +8,7 @@ use Test;
 ##===========================================================
 
 my $pCOMMAND = DSL::Entity::Jobs::Grammar;
-
-my DSL::Entity::Jobs::ResourceAccess $resourceObj.instance;
+$pCOMMAND.set-resources(get-entity-resources-access-object());
 
 plan 8;
 
