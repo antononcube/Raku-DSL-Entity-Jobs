@@ -39,6 +39,10 @@ my %targetToSeparator{Str} =
     "WL-System"        => ";\n",
     "Bulgarian"        => "\n";
 
+#-----------------------------------------------------------
+my DSL::Entity::Jobs::ResourceAccess $resourceObj;
+
+our sub get-entity-resources-access-object() is export { return $resourceObj; }
 
 #-----------------------------------------------------------
 sub has-semicolon (Str $word) {
@@ -52,7 +56,7 @@ multi ToJobEntityCode ( Str $command where not has-semicolon($command), Str $tar
 
     die 'Unknown target.' unless %targetToAction{$target}:exists;
 
-    my $match = DSL::Entity::Jobs::Grammar.parse($command.trim, actions => %targetToAction{$target} );
+    my $match = DSL::Entity::Jobs::Grammar.parse($command.trim, actions => %targetToAction{$target}.new(resources => get-entity-resources-access-object() ) );
     die 'Cannot parse the given command.' unless $match;
     return $match.made;
 }
@@ -74,4 +78,11 @@ multi ToJobEntityCode ( Str $command where has-semicolon($command), Str $target 
     @cmdLines = grep { $_.^name eq 'Str' }, @cmdLines;
 
     return @cmdLines.join( %targetToSeparator{$specTarget} ).trim;
+}
+
+#-----------------------------------------------------------
+$resourceObj := BEGIN {
+    my DSL::Entity::Jobs::ResourceAccess $obj .= new;
+    $obj.ingest-resource-files();
+    $obj
 }

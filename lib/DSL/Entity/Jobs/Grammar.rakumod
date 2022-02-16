@@ -34,10 +34,17 @@ use DSL::Shared::Roles::PredicateSpecification;
 use DSL::Shared::Roles::ErrorHandling;
 
 use DSL::Entity::Jobs::Grammar::EntityNames;
+use DSL::Entity::Jobs::ResourceAccess;
 
 grammar DSL::Entity::Jobs::Grammar
         does DSL::Shared::Roles::ErrorHandling
         does DSL::Entity::Jobs::Grammar::EntityNames {
+
+    my DSL::Entity::Jobs::ResourceAccess $resources;
+
+    method get-resources(--> DSL::Entity::Jobs::ResourceAccess) { return $resources; }
+    method set-resources(DSL::Entity::Jobs::ResourceAccess $obj) { $resources = $obj; }
+
     # TOP
     rule TOP {
         <pipeline-command> |

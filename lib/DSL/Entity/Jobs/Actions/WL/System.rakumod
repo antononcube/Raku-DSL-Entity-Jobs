@@ -33,10 +33,11 @@ use v6;
 use DSL::Entity::Jobs::Grammar;
 use DSL::Shared::Actions::English::WL::PipelineCommand;
 
-my DSL::Entity::Jobs::ResourceAccess $resources.instance;
 
 class DSL::Entity::Jobs::Actions::WL::System
         is DSL::Shared::Actions::English::WL::PipelineCommand {
+
+    has  DSL::Entity::Jobs::ResourceAccess $.resources;
 
     ##========================================================
     ## Grammar methods
@@ -55,12 +56,12 @@ class DSL::Entity::Jobs::Actions::WL::System
     }
 
     method entity-job-title($/) {
-        my $nm = $resources.name-to-entity-id('Title', $/.Str.lc, :!warn);
+        my $nm = $!resources.name-to-entity-id('Title', $/.Str.lc, :!warn);
         make '"' ~ $nm ~ '"';
     }
 
     method entity-job-skill($/) {
-        my $nm = $resources.name-to-entity-id('Skill', $/.Str.lc, :!warn);
+        my $nm = $!resources.name-to-entity-id('Skill', $/.Str.lc, :!warn);
         make '"' ~ $nm ~ '"';
     }
 }
