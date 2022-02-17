@@ -15,7 +15,7 @@ interpretation of natural language commands that specify classification workflow
 
 unit module DSL::Entity::Jobs;
 
-use DSL::Shared::Utilities::MetaSpecsProcessing;
+use DSL::Shared::Utilities::CommandProcessing;
 
 use DSL::Entity::Jobs::Grammar;
 use DSL::Entity::Jobs::Actions::WL::System;
@@ -23,6 +23,7 @@ use DSL::Entity::Jobs::Actions::WL::System;
 use DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 
 #-----------------------------------------------------------
+#| Target to actions rules
 my %targetToAction{Str} =
     "Mathematica"      => DSL::Entity::Jobs::Actions::WL::System,
     "WL"               => DSL::Entity::Jobs::Actions::WL::System,
@@ -32,56 +33,32 @@ my %targetToAction{Str} =
 my %targetToAction2{Str} = %targetToAction.grep({ $_.key.contains('-') }).map({ $_.key.subst('-', '::').Str => $_.value }).Hash;
 %targetToAction = |%targetToAction , |%targetToAction2;
 
-my Str %targetToSeparator{Str} =
-    "Julia"            => "\n",
-    "R"                => " ;\n",
-    "Mathematica"      => ";\n",
-    "WL"               => ";\n",
-    "WL-System"        => ";\n",
-    "Bulgarian"        => "\n";
-
-my Str %targetToSeparator2{Str} = %targetToSeparator.grep({ $_.key.contains('-') }).map({ $_.key.subst('-', '::').Str => $_.value.Str }).Hash;
-%targetToSeparator = |%targetToSeparator , |%targetToSeparator2;
+#| Target to separators rules
+my Str %targetToSeparator{Str} = DSL::Shared::Utilities::CommandProcessing::target-separator-rules();
 
 #-----------------------------------------------------------
 my DSL::Entity::Jobs::ResourceAccess $resourceObj;
 
+#| Get the resources access object.
 our sub get-entity-resources-access-object() is export { return $resourceObj; }
 
 #-----------------------------------------------------------
-sub has-semicolon (Str $word) {
-    return defined index $word, ';';
-}
+#| Named entity recognition for jobs. (proto)
+proto ToJobEntityCode(Str $command, Str $target = 'WL-System', | ) is export {*}
 
-#-----------------------------------------------------------
-proto ToJobEntityCode(Str $command, Str $target = 'tidyverse' ) is export {*}
+#| Named entity recognition for jobs.
+multi ToJobEntityCode( Str $command, Str $target = 'WL-System', *%args ) {
 
-multi ToJobEntityCode ( Str $command where not has-semicolon($command), Str $target = 'WL-ClCon' ) {
+    my $pCOMMAND = DSL::Entity::Jobs::Grammar;
+    $pCOMMAND.set-resources(get-entity-resources-access-object());
 
-    die 'Unknown target.' unless %targetToAction{$target}:exists;
+    my $ACTOBJ = %targetToAction{$target}.new(resources => get-entity-resources-access-object());
 
-    my $match = DSL::Entity::Jobs::Grammar.parse($command.trim, actions => %targetToAction{$target}.new(resources => get-entity-resources-access-object() ) );
-    die 'Cannot parse the given command.' unless $match;
-    return $match.made;
-}
-
-multi ToJobEntityCode ( Str $command where has-semicolon($command), Str $target = 'WL-ClCon' ) {
-
-    my $specTarget = get-dsl-spec( $command, 'target');
-
-    $specTarget = $specTarget ?? $specTarget<DSLTARGET> !! $target;
-
-    die 'Unknown target.' unless %targetToAction{$specTarget}:exists;
-
-    my @commandLines = $command.trim.split(/ ';' \s* /);
-
-    @commandLines = grep { $_.Str.chars > 0 }, @commandLines;
-
-    my @cmdLines = map { ToJobEntityCode($_, $specTarget) }, @commandLines;
-
-    @cmdLines = grep { $_.^name eq 'Str' }, @cmdLines;
-
-    return @cmdLines.join( %targetToSeparator{$specTarget} ).trim;
+    DSL::Shared::Utilities::CommandProcessing::ToWorkflowCode( $command,
+                                                               grammar => $pCOMMAND,
+                                                               actions => $ACTOBJ,
+                                                               separator => %targetToSeparator{$target},
+                                                               |%args )
 }
 
 #-----------------------------------------------------------
