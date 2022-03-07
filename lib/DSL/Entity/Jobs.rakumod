@@ -40,7 +40,7 @@ my Str %targetToSeparator{Str} = DSL::Shared::Utilities::CommandProcessing::targ
 my DSL::Entity::Jobs::ResourceAccess $resourceObj;
 
 #| Get the resources access object.
-our sub get-entity-resources-access-object() is export { return $resourceObj; }
+our sub resource-access-object(--> DSL::Entity::Jobs::ResourceAccess) { return $resourceObj; }
 
 #-----------------------------------------------------------
 #| Named entity recognition for jobs. (proto)
@@ -50,9 +50,9 @@ proto ToJobEntityCode(Str $command, Str $target = 'WL-System', | ) is export {*}
 multi ToJobEntityCode( Str $command, Str $target = 'WL-System', *%args ) {
 
     my $pCOMMAND = DSL::Entity::Jobs::Grammar;
-    $pCOMMAND.set-resources(get-entity-resources-access-object());
+    $pCOMMAND.set-resources(DSL::Entity::Jobs::resource-access-object());
 
-    my $ACTOBJ = %targetToAction{$target}.new(resources => get-entity-resources-access-object());
+    my $ACTOBJ = %targetToAction{$target}.new(resources => DSL::Entity::Jobs::resource-access-object());
 
     DSL::Shared::Utilities::CommandProcessing::ToWorkflowCode( $command,
                                                                grammar => $pCOMMAND,

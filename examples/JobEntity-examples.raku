@@ -5,7 +5,7 @@ use DSL::Entity::Jobs::Actions::WL::System;
 
 my $pCOMMAND = DSL::Entity::Jobs::Grammar;
 
-$pCOMMAND.set-resources(get-entity-resources-access-object());
+$pCOMMAND.set-resources(DSL::Entity::Jobs::resource-access-object());
 
 #use Grammar::Tracer;
 
@@ -35,7 +35,7 @@ $tstart = now;
 say
         $pCOMMAND.parse(
                 'software archtect, net framework, c, java',
-                actions => DSL::Entity::Jobs::Actions::WL::System.new(resources => get-entity-resources-access-object())
+                actions => DSL::Entity::Jobs::Actions::WL::System.new(resources => DSL::Entity::Jobs::resource-access-object())
                 ).made;
 
 say "Parsing time: { now - $tstart }";
