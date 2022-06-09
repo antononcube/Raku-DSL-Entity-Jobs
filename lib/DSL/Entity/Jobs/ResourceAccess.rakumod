@@ -11,11 +11,11 @@ class DSL::Entity::Jobs::ResourceAccess
     #| Override the parent class function in order to call
     #| DSL::Shared::Entity::ResourceAccess.make()
     #| with the correct file names.
-    method get-resource-files( --> Hash) {
-        my @fileNames = <JobSkillToEntityID_EN.csv JobTitleToEntityID_EN.csv>;
-        my %resources = <Skill Title> Z=> @fileNames;
-        %resources = %resources.map({ $_.key => %?RESOURCES{$_.value} });
-        return %resources;
+    method get-resource-files( --> Positional) {
+        my @fileNames = <JobSkillToEntityID_EN.tsv JobTitleToEntityID_EN.tsv ONETJobSkillToEntityID_EN.tsv ONETJobTitleToEntityID_EN.tsv>;
+        my @resources = <Skill Title Skill Title> Z=> @fileNames;
+        @resources = @resources.map({ $_.key => %?RESOURCES{$_.value} });
+        return @resources;
     }
 
     #-----------------------------------------------------------
