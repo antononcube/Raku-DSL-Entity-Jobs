@@ -10,28 +10,28 @@ use Test;
 plan 8;
 
 ## 1
-is ToJobEntityCode('software architect'), '"SoftwareArchitect"', 'software architect';
+is ToJobEntityCode('software architect'), '"ONET:SoftwareArchitect"', 'software architect';
 
 ## 2
-is ToJobEntityCode('java developer'), '"JavaDeveloper"', 'java developer';
+is ToJobEntityCode('java developer'), '"ONET:JavaDeveloper"', 'java developer';
 
 ## 3
-is ToJobEntityCode('project manager'), '"ProjectManager"', 'project manager';
+is ToJobEntityCode('project manager'), '"ONET:ProjectManager"', 'project manager';
 
 ## 4
-is ToJobEntityCode('painter'), '"Painter"', 'painter';
+is ToJobEntityCode('painter'), '"ONET:Painter"', 'painter';
 
 ## 5
 is ToJobEntityCode('fine art painter'), '"FineArtPainter"', 'fine art painter';
 
-## 5
-is ToJobEntityCode('driver'), '"Driver"', 'driver';
+## 6
+is ToJobEntityCode('driver'), '"ONET:Driver"', 'driver';
 
 ## 7
 is ToJobEntityCode('owner driver'), '"OwnerDriver"', 'owner driver';
 
 ## 8
-is ToJobEntityCode('mechanical engineer'), '"MechanicalEngineer"', 'mechanical engineer';
+is ToJobEntityCode('mechanical engineer'), '"ONET:MechanicalEngineer"', 'mechanical engineer';
 
 
 done-testing;
