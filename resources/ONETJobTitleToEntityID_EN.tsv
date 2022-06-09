@@ -1,3 +1,4 @@
+Title	EntityID
 3D Animator	ONET:3DAnimator(Three-DimensionalAnimator)
 Three-Dimensional Animator	ONET:3DAnimator(Three-DimensionalAnimator)
 3D Artist	ONET:3DArtist(ThreeDimensionalArtist)
@@ -562,7 +563,7 @@ Aerial Camera Operator	ONET:AerialCameraOperator
 Aerial Crop Duster	ONET:AerialCropDuster
 Aerial Erector	ONET:AerialErector
 Aerial Gunner	ONET:AerialGunner
-Aerial Gunner, Superintendent	ONET:AerialGunner,Superintendent
+Aerial Gunner Superintendent	ONET:AerialGunner,Superintendent
 Aerial Hurricane Hunter	ONET:AerialHurricaneHunter
 Aerial Installer	ONET:AerialInstaller
 Aerialist	ONET:Aerialist
@@ -598,11 +599,11 @@ Aerophysicist	ONET:Aerophysicist
 Aerosol Supervisor	ONET:AerosolSupervisor
 Aerospace Assembler	ONET:AerospaceAssembler
 Aerospace Control And Warning Systems	ONET:AerospaceControlAndWarningSystems
-Aerospace Control And Warning Systems, Manuel Systems	ONET:AerospaceControlAndWarningSystems,ManuelSystems
-Aerospace Control And Warning Systems, Sector Operations Control Center	ONET:AerospaceControlAndWarningSystems,SectorOperationsControlCenter
+Aerospace Control And Warning Systems Manuel Systems	ONET:AerospaceControlAndWarningSystems,ManuelSystems
+Aerospace Control And Warning Systems Sector Operations Control Center	ONET:AerospaceControlAndWarningSystems,SectorOperationsControlCenter
 Aerospace Control and Warning Systems Superintendent	ONET:AerospaceControlAndWarningSystemsSuperintendent
-Aerospace Control And Warning Systems, Theater Air Control System	ONET:AerospaceControlAndWarningSystems,TheaterAirControlSystem
-Aerospace Control And Warning Systems, Weapons Director	ONET:AerospaceControlAndWarningSystems,WeaponsDirector
+Aerospace Control And Warning Systems Theater Air Control System	ONET:AerospaceControlAndWarningSystems,TheaterAirControlSystem
+Aerospace Control And Warning Systems Weapons Director	ONET:AerospaceControlAndWarningSystems,WeaponsDirector
 Aerospace Engineer	ONET:AerospaceEngineer
 Aerospace Engineering Technologist	ONET:AerospaceEngineeringTechnologist
 Aerospace Inspector	ONET:AerospaceInspector
@@ -749,7 +750,7 @@ Air Bag Stripper	ONET:AirBagStripper
 Air Battle Manager	ONET:AirBattleManager
 Air Boatswain	ONET:AirBoatswain
 Airborne and Air Delivery Specialist	ONET:AirborneAndAirDeliverySpecialist
-Airborne Battle Management Systems, Weapons Director	ONET:AirborneBattleManagementSystems,WeaponsDirector
+Airborne Battle Management Systems Weapons Director	ONET:AirborneBattleManagementSystems,WeaponsDirector
 Airborne Mine Countermeasures (AMCM) Aircrewman	ONET:AirborneMineCountermeasures(AMCM)Aircrewman
 Airborne Missions Systems	ONET:AirborneMissionsSystems
 Airborne Mission Systems	ONET:AirborneMissionSystems
@@ -903,7 +904,7 @@ Aircraft Worker	ONET:AircraftWorker
 Aircraft X-Ray Examiner	ONET:AircraftX-RayExaminer
 Air Defense Artillery Officer	ONET:AirDefenseArtilleryOfficer
 Air Defense Artillery Senior Sergeant	ONET:AirDefenseArtillerySeniorSergeant
-Air Defense Command, Control, Communications, Computers and Intelligence Tactical Operations Center Enhanced Operator/Maintainer	ONET:AirDefenseCommand,Control,Communications,ComputersAndIntelligenceTacticalOperationsCenterEnhancedOperator/Maintainer
+Air Defense Command Control Communications Computers and Intelligence Tactical Operations Center Enhanced Operator/Maintainer	ONET:AirDefenseCommand,Control,Communications,ComputersAndIntelligenceTacticalOperationsCenterEnhancedOperator/Maintainer
 Air Defense Control Officer	ONET:AirDefenseControlOfficer
 Air Deodorizer Servicer	ONET:AirDeodorizerServicer
 Air Drier	ONET:AirDrier
@@ -1418,7 +1419,7 @@ Antique Refinisher	ONET:AntiqueRefinisher
 Antique Repairer	ONET:AntiqueRepairer
 Antisqueak Filler	ONET:AntisqueakFiller
 Antisqueak Worker	ONET:AntisqueakWorker
-Antisubmarine Classification and Analysis Officer, Aviation	ONET:AntisubmarineClassificationAndAnalysisOfficer,Aviation
+Antisubmarine Classification and Analysis Officer Aviation	ONET:AntisubmarineClassificationAndAnalysisOfficer,Aviation
 Antisubmarine Warfare Intelligence Officer	ONET:AntisubmarineWarfareIntelligenceOfficer
 Antisubmarine Weapons Officer	ONET:AntisubmarineWeaponsOfficer
 Antitank Assault Gunner	ONET:AntitankAssaultGunner
@@ -1995,7 +1996,7 @@ Astrobiologist	ONET:Astrobiologist
 Astrochemist	ONET:Astrochemist
 Astrologer	ONET:Astrologer
 Astronautical Engineer	ONET:AstronauticalEngineer
-Astronaut, Mission Specialist	ONET:Astronaut,MissionSpecialist
+Astronaut Mission Specialist	ONET:Astronaut,MissionSpecialist
 Astronomer	ONET:Astronomer
 Astronomy Professor	ONET:AstronomyProfessor
 Astrophysicist	ONET:Astrophysicist
@@ -2572,7 +2573,7 @@ Avian Keeper	ONET:AvianKeeper
 Aviation All-Source Intelligence	ONET:AviationAll-SourceIntelligence
 Aviation Antisubmarine Warfare Technician	ONET:AviationAntisubmarineWarfareTechnician
 Aviation Boatswain's Mate	ONET:AviationBoatswain'sMate
-Aviation Boatswain's Mate, Launching & Recovery Equipment	ONET:AviationBoatswain'sMate,Launching&RecoveryEquipment
+Aviation Boatswain's Mate Launching & Recovery Equipment	ONET:AviationBoatswain'sMate,Launching&RecoveryEquipment
 Aviation Consultant	ONET:AviationConsultant
 Aviation Electrical Technician	ONET:AviationElectricalTechnician
 Aviation Electrician	ONET:AviationElectrician
@@ -3177,7 +3178,7 @@ Battery and Charger Technician	ONET:BatteryAndChargerTechnician
 Battery Assembler	ONET:BatteryAssembler
 Battery Builder	ONET:BatteryBuilder
 Battery Charger	ONET:BatteryCharger
-Battery Charger, Conveyor Line	ONET:BatteryCharger,ConveyorLine
+Battery Charger Conveyor Line	ONET:BatteryCharger,ConveyorLine
 Battery Charger Tester	ONET:BatteryChargerTester
 Battery Checker	ONET:BatteryChecker
 Battery Container Finishing Hand	ONET:BatteryContainerFinishingHand
@@ -3224,7 +3225,7 @@ Beadworker	ONET:Beadworker
 Bead Wrapper	ONET:BeadWrapper
 Beam Builder	ONET:BeamBuilder
 Beam Builder Helper	ONET:BeamBuilderHelper
-Beam Carrier, Hauler, Pusher	ONET:BeamCarrier,Hauler,Pusher
+Beam Carrier Hauler Pusher	ONET:BeamCarrier,Hauler,Pusher
 Beam Department Supervisor	ONET:BeamDepartmentSupervisor
 Beam Dyer	ONET:BeamDyer
 Beam Dyer Operator	ONET:BeamDyerOperator
@@ -4935,14 +4936,14 @@ Brusher Operator	ONET:BrusherOperator
 Brusher Tender	ONET:BrusherTender
 Brusher Warp	ONET:BrusherWarp
 Brush Fabrication Supervisor	ONET:BrushFabricationSupervisor
-Brush Filler, Hand	ONET:BrushFiller,Hand
+Brush Filler Hand	ONET:BrushFiller,Hand
 Brush Finisher	ONET:BrushFinisher
 Brush Hand	ONET:BrushHand
 Brush Head Maker	ONET:BrushHeadMaker
 Brushing Machine Operator	ONET:BrushingMachineOperator
 Brush Loader and Handle Attacher	ONET:BrushLoaderAndHandleAttacher
 Brush Machine Setter	ONET:BrushMachineSetter
-Brush Maker, Machine	ONET:BrushMaker,Machine
+Brush Maker Machine	ONET:BrushMaker,Machine
 Brush Material Preparer	ONET:BrushMaterialPreparer
 Brush Operator	ONET:BrushOperator
 Brush or Broom Cutter	ONET:BrushOrBroomCutter
@@ -5141,7 +5142,7 @@ Bunch Breaker	ONET:BunchBreaker
 Buncher	ONET:Buncher
 Buncher Operator	ONET:BuncherOperator
 Bunch Maker	ONET:BunchMaker
-Bunch Maker, Hand	ONET:BunchMaker,Hand
+Bunch Maker Hand	ONET:BunchMaker,Hand
 Bunch Trimmer Mold	ONET:BunchTrimmerMold
 Bundle Breaker	ONET:BundleBreaker
 Bundle Collector	ONET:BundleCollector
@@ -5322,7 +5323,7 @@ Bus Steward	ONET:BusSteward
 Buster	ONET:Buster
 Bus Transmission Mechanic	ONET:BusTransmissionMechanic
 Bus Transportation Manager	ONET:BusTransportationManager
-Bus, Trolley, and Taxi Instructor	ONET:Bus,Trolley,AndTaxiInstructor
+Bus Trolley and Taxi Instructor	ONET:Bus,Trolley,AndTaxiInstructor
 Bus Tune-Up Mechanic	ONET:BusTune-UpMechanic
 Bus Washer	ONET:BusWasher
 Butadiene Compressor Operator	ONET:ButadieneCompressorOperator
@@ -5528,7 +5529,7 @@ Cage Cashier	ONET:CageCashier
 Cage Fighter	ONET:CageFighter
 Cage Loader	ONET:CageLoader
 Cage Maker	ONET:CageMaker
-Cage Maker, Machine	ONET:CageMaker,Machine
+Cage Maker Machine	ONET:CageMaker,Machine
 Cage Operator	ONET:CageOperator
 Cager	ONET:Cager
 Cager Operator	ONET:CagerOperator
@@ -6670,9 +6671,9 @@ Certified Biomedical Equipment Technician	ONET:CertifiedBiomedicalEquipmentTechn
 Certified Breastfeeding Educator	ONET:CertifiedBreastfeedingEducator(CBE)
 CBE	ONET:CertifiedBreastfeedingEducator(CBE)
 Certified Calibration Technician	ONET:CertifiedCalibrationTechnician
-Certified Children, Youth, and Family Social Worker	ONET:CertifiedChildren,Youth,AndFamilySocialWorker(C-CYFSW)
+Certified Children Youth and Family Social Worker	ONET:CertifiedChildren,Youth,AndFamilySocialWorker(C-CYFSW)
 C-CYFSW	ONET:CertifiedChild,Youth,AndFamilySocialWorker(C-CYFSW)
-Certified Child, Youth, and Family Social Worker	ONET:CertifiedChild,Youth,AndFamilySocialWorker(C-CYFSW)
+Certified Child Youth and Family Social Worker	ONET:CertifiedChild,Youth,AndFamilySocialWorker(C-CYFSW)
 Certified Clinical Laboratory Technician	ONET:CertifiedClinicalLaboratoryTechnician
 Certified Coatings Inspector	ONET:CertifiedCoatingsInspector
 Certified Coding Specialist	ONET:CertifiedCodingSpecialist
@@ -6710,7 +6711,7 @@ CEV Technician	ONET:CertifiedEmergencyVehicleTechnician(CEVTechnician)
 Certified Endoscopy Technician	ONET:CertifiedEndoscopyTechnician
 Certified EPIC Trainer	ONET:CertifiedEPICTrainer(CertifiedElectronicPrivacyInformationCenterTrainer)
 Certified Electronic Privacy Information Center Trainer	ONET:CertifiedEPICTrainer(CertifiedElectronicPrivacyInformationCenterTrainer)
-Certified Erosion, Sediment, and Storm Water Inspector	ONET:CertifiedErosion,Sediment,AndStormWaterInspector(CESSWI)
+Certified Erosion Sediment and Storm Water Inspector	ONET:CertifiedErosion,Sediment,AndStormWaterInspector(CESSWI)
 CESSWI	ONET:CertifiedErosion,Sediment,AndStormWaterInspector(CESSWI)
 Certified Ethical Hacker	ONET:CertifiedEthicalHacker
 Certified Executive Chef	ONET:CertifiedExecutiveChef(CEC)
@@ -7105,9 +7106,9 @@ Chemical Analyst	ONET:ChemicalAnalyst
 Chemical Analytical Sampler	ONET:ChemicalAnalyticalSampler
 Chemical and Pharmaceutical Sales Representative	ONET:ChemicalAndPharmaceuticalSalesRepresentative
 Chemical Applicator	ONET:ChemicalApplicator
-Chemical, Biological, Radiological, and Nuclear (CBRN) Defense Specialist	ONET:Chemical,Biological,Radiological,AndNuclear(CBRN)DefenseSpecialist
-Chemical, Biological, Radiological, And Nuclear (CBRN) Officer	ONET:Chemical,Biological,Radiological,AndNuclear(CBRN)Officer
-Chemical, Biological, Radiological, Nuclear (CBRN)Specialist	ONET:Chemical,Biological,Radiological,Nuclear(CBRN)Specialist
+Chemical Biological Radiological and Nuclear (CBRN) Defense Specialist	ONET:Chemical,Biological,Radiological,AndNuclear(CBRN)DefenseSpecialist
+Chemical Biological Radiological And Nuclear (CBRN) Officer	ONET:Chemical,Biological,Radiological,AndNuclear(CBRN)Officer
+Chemical Biological Radiological Nuclear (CBRN)Specialist	ONET:Chemical,Biological,Radiological,Nuclear(CBRN)Specialist
 Chemical Blender	ONET:ChemicalBlender
 Chemical Cell Changer	ONET:ChemicalCellChanger
 Chemical Checker	ONET:ChemicalChecker
@@ -8140,7 +8141,7 @@ Cloth Feeder	ONET:ClothFeeder
 Cloth Finisher	ONET:ClothFinisher
 Cloth Finishing Range Operator	ONET:ClothFinishingRangeOperator
 Cloth Finishing Range Tender	ONET:ClothFinishingRangeTender
-Cloth Folder, Hand	ONET:ClothFolder,Hand
+Cloth Folder Hand	ONET:ClothFolder,Hand
 Cloth Framer	ONET:ClothFramer
 Cloth Grader	ONET:ClothGrader
 Cloth Grader Supervisor	ONET:ClothGraderSupervisor
@@ -8159,7 +8160,7 @@ Clothing Pattern Preparer	ONET:ClothingPatternPreparer
 Clothing Presser	ONET:ClothingPresser
 Cloth Inspector	ONET:ClothInspector
 Cloth Measurer	ONET:ClothMeasurer
-Cloth Measurer, Machine	ONET:ClothMeasurer,Machine
+Cloth Measurer Machine	ONET:ClothMeasurer,Machine
 Cloth Mender	ONET:ClothMender
 Cloth Mercerizer Operator	ONET:ClothMercerizerOperator
 Cloth Packer	ONET:ClothPacker
@@ -8632,8 +8633,8 @@ Command and Control Officer	ONET:CommandAndControlOfficer
 Command and Control Specialist	ONET:CommandAndControlSpecialist
 Command and Control Systems Integrator	ONET:CommandAndControlSystemsIntegrator
 Commandant	ONET:Commandant
-Command, Control, Communications, Computers and Intelligence (C4I) Officer	ONET:Command,Control,Communications,ComputersAndIntelligence(C4I)Officer
-Commanding Officer, Special Warfare Team	ONET:CommandingOfficer,SpecialWarfareTeam
+Command Control Communications Computers and Intelligence (C4I) Officer	ONET:Command,Control,Communications,ComputersAndIntelligence(C4I)Officer
+Commanding Officer Special Warfare Team	ONET:CommandingOfficer,SpecialWarfareTeam
 Command Post Craftsman	ONET:CommandPostCraftsman
 Command Post Superintendent	ONET:CommandPostSuperintendent
 Commentator	ONET:Commentator
@@ -9535,8 +9536,8 @@ Contract Specialist	ONET:ContractSpecialist
 Contracts Specialist	ONET:ContractsSpecialist
 Contracts Writer	ONET:ContractsWriter
 Control Analyst	ONET:ControlAnalyst
-Control and Recovery, Combat Rescue	ONET:ControlAndRecovery,CombatRescue
-Control and Recovery, Special Tactics	ONET:ControlAndRecovery,SpecialTactics
+Control and Recovery Combat Rescue	ONET:ControlAndRecovery,CombatRescue
+Control and Recovery Special Tactics	ONET:ControlAndRecovery,SpecialTactics
 Control Area Operator	ONET:ControlAreaOperator
 Control Board Operator	ONET:ControlBoardOperator
 Control Center Operator	ONET:ControlCenterOperator
@@ -10077,7 +10078,7 @@ Counter Intelligence Agent	ONET:CounterIntelligenceAgent
 Counterintelligence Agent	ONET:CounterintelligenceAgent
 Counterintelligence Analyst	ONET:CounterintelligenceAnalyst
 Counterintelligence (CI)/Human Source Intelligence (HUMINT) Officer	ONET:Counterintelligence(CI)/HumanSourceIntelligence(HUMINT)Officer
-Counterintelligence/Human Intelligence, Senior Sergeant	ONET:Counterintelligence/HumanIntelligence,SeniorSergeant
+Counterintelligence/Human Intelligence Senior Sergeant	ONET:Counterintelligence/HumanIntelligence,SeniorSergeant
 Counterintelligence/Humint Specialist	ONET:Counterintelligence/HumintSpecialist
 Counterintelligence Officer/Human Source Intelligence (CI/HUMINT) Officer	ONET:CounterintelligenceOfficer/HumanSourceIntelligence(CI/HUMINT)Officer
 Counterintelligence Officer/Human Source Intelligence (Ci/Humint) Operations Officer	ONET:CounterintelligenceOfficer/HumanSourceIntelligence(Ci/Humint)OperationsOfficer
@@ -10448,7 +10449,7 @@ Crop Applicator	ONET:CropApplicator
 Crop Duster	ONET:CropDuster
 Crop Duster Helper	ONET:CropDusterHelper
 Crop Farm Helper	ONET:CropFarmHelper
-Crop, Grain, or Livestock Farm Manager	ONET:Crop,Grain,OrLivestockFarmManager
+Crop Grain or Livestock Farm Manager	ONET:Crop,Grain,OrLivestockFarmManager
 Crop Nutrition Scientist	ONET:CropNutritionScientist
 Crop or Grain Farmer	ONET:CropOrGrainFarmer
 Crop or Grain Farmworker	ONET:CropOrGrainFarmworker
@@ -11423,7 +11424,7 @@ Dental Laboratory Worker	ONET:DentalLaboratoryWorker
 Dental Mechanic	ONET:DentalMechanic
 Dental Medicine Doctor	ONET:DentalMedicineDoctor(DMD)
 DMD	ONET:DoctorOfDentalMedicine(DMD)
-Dental, Mental, and School Community Health Aide	ONET:Dental,Mental,AndSchoolCommunityHealthAide
+Dental Mental and School Community Health Aide	ONET:Dental,Mental,AndSchoolCommunityHealthAide
 Dental Mold Maker	ONET:DentalMoldMaker
 Dental Nurse	ONET:DentalNurse
 Dental Office Manager	ONET:DentalOfficeManager
@@ -12251,7 +12252,7 @@ Division Engineer	ONET:DivisionEngineer
 Division Manager	ONET:DivisionManager
 Division Merchandise Manager	ONET:DivisionMerchandiseManager(DMM)
 DMM	ONET:DivisionMerchandiseManager(DMM)
-Division Officer, Weapons Department	ONET:DivisionOfficer,WeaponsDepartment(Gunnery)
+Division Officer Weapons Department	ONET:DivisionOfficer,WeaponsDepartment(Gunnery)
 Antisubmarine Weapons	ONET:DivisionOfficer,WeaponsDepartment(AntisubmarineWeapons)
 Guided Missiles	ONET:DivisionOfficer,WeaponsDepartment(GuidedMissiles)
 Gunnery	ONET:DivisionOfficer,WeaponsDepartment(Gunnery)
@@ -13838,7 +13839,7 @@ Elevator Runner	ONET:ElevatorRunner
 Elevator Serviceman	ONET:ElevatorServiceman
 Elevator Service Mechanic	ONET:ElevatorServiceMechanic
 Elevator Service Technician	ONET:ElevatorServiceTechnician
-Elevators, Escalators, and Dumbwaiters Sales Representative	ONET:Elevators,Escalators,AndDumbwaitersSalesRepresentative
+Elevators Escalators and Dumbwaiters Sales Representative	ONET:Elevators,Escalators,AndDumbwaitersSalesRepresentative
 Elevators Inspector	ONET:ElevatorsInspector
 Elevator Starter	ONET:ElevatorStarter
 Elevator Supervisor	ONET:ElevatorSupervisor
@@ -14118,7 +14119,7 @@ Energy QC Manager	ONET:EnergyQualityControlManager(EnergyQCManager)
 Energy Rater	ONET:EnergyRater
 Energy Risk Management Analyst	ONET:EnergyRiskManagementAnalyst
 Energy Services Manager	ONET:EnergyServicesManager
-Energy, Sustainability, and Infrastructure Manager	ONET:Energy,Sustainability,AndInfrastructureManager
+Energy Sustainability and Infrastructure Manager	ONET:Energy,Sustainability,AndInfrastructureManager
 Energy Sustainability Manager	ONET:EnergySustainabilityManager
 Energy Systems Engineer	ONET:EnergySystemsEngineer
 Energy Systems Operator	ONET:EnergySystemsOperator
@@ -14348,7 +14349,7 @@ Environmental Health and Safety Engineer	ONET:EnvironmentalHealthAndSafetyEngine
 EHS Engineer	ONET:EnvironmentalHealthAndSafetyEngineer(EHSEngineer)
 Environmental Health and Safety Manager	ONET:EnvironmentalHealthAndSafetyManager
 Environmental Health and Safety Officer	ONET:EnvironmentalHealthAndSafetyOfficer
-Environmental, Health, and Safety Officer	ONET:Environmental,Health,AndSafetyOfficer(EHSOfficer)
+Environmental Health and Safety Officer	ONET:Environmental,Health,AndSafetyOfficer(EHSOfficer)
 EHS Officer	ONET:Environmental,Health,AndSafetyOfficer(EHSOfficer)
 Environmental Health and Safety Specialist	ONET:EnvironmentalHealthAndSafetySpecialist(EHSSpecialist)
 EHS Specialist	ONET:EnvironmentalHealthAndSafetySpecialist(EHSSpecialist)
@@ -14476,7 +14477,7 @@ ESA	ONET:EquipmentServicesAssociate(ESA)
 Equipment Services Associate	ONET:EquipmentServicesAssociate(ESA)
 Equipment Specialist	ONET:EquipmentSpecialist
 Equipment Superintendent	ONET:EquipmentSuperintendent
-Equipment, Supplies, and Tools Purchasing Agent	ONET:Equipment,Supplies,AndToolsPurchasingAgent
+Equipment Supplies and Tools Purchasing Agent	ONET:Equipment,Supplies,AndToolsPurchasingAgent
 Equipment Technician	ONET:EquipmentTechnician
 Equipment Tester	ONET:EquipmentTester
 Equipment Validation Engineer	ONET:EquipmentValidationEngineer
@@ -14530,7 +14531,7 @@ Escrow Officer	ONET:EscrowOfficer
 Escrow Representative	ONET:EscrowRepresentative
 Escrow Secretary	ONET:EscrowSecretary
 ESG Manager	ONET:ESGManager(Environmental,Social,AndCorporateGovernanceManager)
-Environmental, Social, and Corporate Governance Manager	ONET:ESGManager(Environmental,Social,AndCorporateGovernanceManager)
+Environmental Social and Corporate Governance Manager	ONET:ESGManager(Environmental,Social,AndCorporateGovernanceManager)
 ESL Instructor	ONET:ESLInstructor(EnglishAsASecondLanguageInstructor)
 English as a Second Language Instructor	ONET:ESLInstructor(EnglishAsASecondLanguageInstructor)
 ESL Teacher	ONET:ESLTeacher(EnglishAsASecondLanguageTeacher)
@@ -14662,7 +14663,7 @@ Executive Director	ONET:ExecutiveDirector
 Executive Housekeeper	ONET:ExecutiveHousekeeper
 Executive Meeting Manager	ONET:ExecutiveMeetingManager
 Executive Officer	ONET:ExecutiveOfficer
-Executive Officer, Special Warfare Team	ONET:ExecutiveOfficer,SpecialWarfareTeam
+Executive Officer Special Warfare Team	ONET:ExecutiveOfficer,SpecialWarfareTeam
 Executive Pastry Chef	ONET:ExecutivePastryChef
 Executive Pilot	ONET:ExecutivePilot
 Executive Producer	ONET:ExecutiveProducer
@@ -16160,9 +16161,9 @@ Flight Deck Officer	ONET:FlightDeckOfficer
 Flight Dispatcher	ONET:FlightDispatcher
 Flight Dynamicist	ONET:FlightDynamicist
 Flight Engineer	ONET:FlightEngineer
-Flight Engineer, Helicopter	ONET:FlightEngineer,Helicopter
+Flight Engineer Helicopter	ONET:FlightEngineer,Helicopter
 Flight Engineer Manager	ONET:FlightEngineerManager
-Flight Engineer, Performance Qualified	ONET:FlightEngineer,PerformanceQualified
+Flight Engineer Performance Qualified	ONET:FlightEngineer,PerformanceQualified
 Flight Follower	ONET:FlightFollower
 Flight Hostess	ONET:FlightHostess
 Flight Information Expediter	ONET:FlightInformationExpediter
@@ -17629,7 +17630,7 @@ General Educational Development Preparation Teacher	ONET:GEDPreparationTeacher(G
 GED Teacher	ONET:GEDTeacher(GeneralEducationalDevelopmentTeacher)
 General Educational Development Teacher	ONET:GEDTeacher(GeneralEducationalDevelopmentTeacher)
 Gelatin Dynamite Packing Operator	ONET:GelatinDynamitePackingOperator
-Gelatin Maker, Utility	ONET:GelatinMaker,Utility
+Gelatin Maker Utility	ONET:GelatinMaker,Utility
 Gelatin Plant Supervisor	ONET:GelatinPlantSupervisor
 Gel-Coater	ONET:Gel-Coater
 Gem Cutter	ONET:GemCutter
@@ -17853,7 +17854,7 @@ Geothermal Electrical Engineer	ONET:GeothermalElectricalEngineer
 Geothermal Field Technician	ONET:GeothermalFieldTechnician
 Geothermal Heat Pump Machinist	ONET:GeothermalHeatPumpMachinist
 Geothermal HVAC Technician	ONET:GeothermalHVACTechnician(GeothermalHeating,Ventilating,AndAirConditioningTechnician)
-Geothermal Heating, Ventilating, and Air Conditioning Technician	ONET:GeothermalHVACTechnician(GeothermalHeating,Ventilating,AndAirConditioningTechnician)
+Geothermal Heating Ventilating and Air Conditioning Technician	ONET:GeothermalHVACTechnician(GeothermalHeating,Ventilating,AndAirConditioningTechnician)
 Geothermal Installer	ONET:GeothermalInstaller
 Geothermal Operating Engineer	ONET:GeothermalOperatingEngineer
 Geothermal Operations Manager	ONET:GeothermalOperationsManager
@@ -18616,7 +18617,7 @@ Guide	ONET:Guide
 Guide Changer	ONET:GuideChanger
 Guided Missile Launching System Maintenance Technician	ONET:GuidedMissileLaunchingSystemMaintenanceTechnician
 Guided Missile Launching System Technician	ONET:GuidedMissileLaunchingSystemTechnician
-Guided Missile Test Officer, Air-Launched	ONET:GuidedMissileTestOfficer,Air-Launched
+Guided Missile Test Officer Air-Launched	ONET:GuidedMissileTestOfficer,Air-Launched
 Guide Dog Instructor	ONET:GuideDogInstructor
 Guide Dog Mobility Instructor	ONET:GuideDogMobilityInstructor(GDMI)
 GDMI	ONET:GuideDogMobilityInstructor(GDMI)
@@ -18690,8 +18691,8 @@ Gutter Installer	ONET:GutterInstaller
 Gutterman	ONET:Gutterman
 Guzzler Builder	ONET:GuzzlerBuilder
 GWOT IA/ILO Intelligence Support	ONET:GWOTIA/ILOIntelligenceSupport
-GWOT IA/ILO Intelligence Support, Not Deployed	ONET:GWOTIA/ILOIntelligenceSupport,NotDeployed
-GWOT IA/ILO Multi-National Force, Not Deployed	ONET:GWOTIA/ILOMulti-NationalForce,NotDeployed
+GWOT IA/ILO Intelligence Support Not Deployed	ONET:GWOTIA/ILOIntelligenceSupport,NotDeployed
+GWOT IA/ILO Multi-National Force Not Deployed	ONET:GWOTIA/ILOMulti-NationalForce,NotDeployed
 GWOT/IA Joint Special Operations Task Force Member-Deployed	ONET:GWOT/IAJointSpecialOperationsTaskForceMember-Deployed
 GWOT Support Assignment-Basic Combat Unit Member	ONET:GWOTSupportAssignment-BasicCombatUnitMember
 GWOT Support Assignment-Counter Rocket Artillery and Mortar	ONET:GWOTSupportAssignment-CounterRocketArtilleryAndMortar(C-RAM)
@@ -19329,7 +19330,7 @@ Health Manager	ONET:HealthManager
 Health Navigator	ONET:HealthNavigator
 Health Officer	ONET:HealthOfficer
 Health Outreach Worker	ONET:HealthOutreachWorker
-Health, Physical Education, and Recreation Professor	ONET:Health,PhysicalEducation,AndRecreationProfessor(HPERProfessor)
+Health Physical Education and Recreation Professor	ONET:Health,PhysicalEducation,AndRecreationProfessor(HPERProfessor)
 HPER Professor	ONET:Health,PhysicalEducation,AndRecreationProfessor(HPERProfessor)
 Health Physicist	ONET:HealthPhysicist
 Health Physics Technician	ONET:HealthPhysicsTechnician(HPTech)
@@ -19346,7 +19347,7 @@ Health Records Technician	ONET:HealthRecordsTechnician
 Health Records Technology Teacher	ONET:HealthRecordsTechnologyTeacher
 Health Record Technician	ONET:HealthRecordTechnician(HealthRecordTech)
 Health Record Tech	ONET:HealthRecordTechnician(HealthRecordTech)
-Health, Safety, and Environmental Manager	ONET:Health,Safety,AndEnvironmentalManager(HSEManager)
+Health Safety and Environmental Manager	ONET:Health,Safety,AndEnvironmentalManager(HSEManager)
 HSE Manager	ONET:Health,Safety,AndEnvironmentalManager(HSEManager)
 Health Safety and Environmental Specialist	ONET:HealthSafetyAndEnvironmentalSpecialist(HSESpecialist)
 HSE Specialist	ONET:HealthSafetyAndEnvironmentalSpecialist(HSESpecialist)
@@ -19378,7 +19379,7 @@ Health Type Technician	ONET:HealthTypeTechnician
 Health Underwriter	ONET:HealthUnderwriter
 Health Unit Clerk	ONET:HealthUnitClerk
 Health Unit Coordinator	ONET:HealthUnitCoordinator
-Health, Wellness, and Nutrition Coordinator	ONET:Health,Wellness,AndNutritionCoordinator
+Health Wellness and Nutrition Coordinator	ONET:Health,Wellness,AndNutritionCoordinator
 Health Wellness Coordinator	ONET:HealthWellnessCoordinator
 Hearing-Aid Assembly Supervisor	ONET:Hearing-AidAssemblySupervisor
 Hearing Aid Consultant	ONET:HearingAidConsultant
@@ -19461,8 +19462,8 @@ Heating Technician	ONET:HeatingTechnician(HeatingTech)
 Heating Tech	ONET:HeatingTechnician(HeatingTech)
 Heating Unit Installer	ONET:HeatingUnitInstaller
 Heating Unit Mechanic	ONET:HeatingUnitMechanic
-Heating, Ventilation, and Air Conditioning (HVAC) Mechanic Boiler Operator	ONET:Heating,Ventilation,AndAirConditioning(HVAC)MechanicBoilerOperator
-Heating, Ventilation, and Air Conditioning (HVAC) Sheet Metal Installer	ONET:Heating,Ventilation,AndAirConditioning(HVAC)SheetMetalInstaller
+Heating Ventilation and Air Conditioning (HVAC) Mechanic Boiler Operator	ONET:Heating,Ventilation,AndAirConditioning(HVAC)MechanicBoilerOperator
+Heating Ventilation and Air Conditioning (HVAC) Sheet Metal Installer	ONET:Heating,Ventilation,AndAirConditioning(HVAC)SheetMetalInstaller
 Heat Plant Specialist	ONET:HeatPlantSpecialist
 Heat Pump Installer	ONET:HeatPumpInstaller
 Heat Reader	ONET:HeatReader
@@ -20391,57 +20392,57 @@ Hurricane Tracker	ONET:HurricaneTracker
 Husbandry Technician	ONET:HusbandryTechnician
 Husker Operator	ONET:HuskerOperator
 HVAC Commercial Salesperson	ONET:HVACCommercialSalesperson(Heating,Ventilation,AndAirConditioningCommercialSalesperson)
-Heating, Ventilation, and Air Conditioning Commercial Salesperson	ONET:HVACCommercialSalesperson(Heating,Ventilation,AndAirConditioningCommercialSalesperson)
+Heating Ventilation and Air Conditioning Commercial Salesperson	ONET:HVACCommercialSalesperson(Heating,Ventilation,AndAirConditioningCommercialSalesperson)
 HVAC Design Mechanical Engineer	ONET:HVACDesignMechanicalEngineer(Heating,Ventilation,AndAirConditioningDesignMechanicalEngineer)
-Heating, Ventilation, and Air Conditioning Design Mechanical Engineer	ONET:HVACDesignMechanicalEngineer(Heating,Ventilation,AndAirConditioningDesignMechanicalEngineer)
+Heating Ventilation and Air Conditioning Design Mechanical Engineer	ONET:HVACDesignMechanicalEngineer(Heating,Ventilation,AndAirConditioningDesignMechanicalEngineer)
 HVAC Engineer	ONET:HVACEngineer(Heating,VentilationAndAirConditioningEngineer)
 Heating Ventilation Air Conditioning Engineer	ONET:HVACEngineer(HeatingVentilationAirConditioningEngineer)
-Heating, Ventilation, and Air Conditioning Engineer	ONET:HVACEngineer(Heating,Ventilation,AndAirConditioningEngineer)
-Heating, Ventilation and Air Conditioning Engineer	ONET:HVACEngineer(Heating,VentilationAndAirConditioningEngineer)
+Heating Ventilation and Air Conditioning Engineer	ONET:HVACEngineer(Heating,Ventilation,AndAirConditioningEngineer)
+Heating Ventilation and Air Conditioning Engineer	ONET:HVACEngineer(Heating,VentilationAndAirConditioningEngineer)
 HVAC Helper	ONET:HVACHelper(Heating,Ventilation,AirConditioningHelper)
-Heating, Ventilation, Air Conditioning Helper	ONET:HVACHelper(Heating,Ventilation,AirConditioningHelper)
+Heating Ventilation Air Conditioning Helper	ONET:HVACHelper(Heating,Ventilation,AirConditioningHelper)
 HVAC Installation Helper	ONET:HVACInstallationHelper(Heating,Ventilation,AirConditioningInstallationHelper)
-Heating, Ventilation, Air Conditioning Installation Helper	ONET:HVACInstallationHelper(Heating,Ventilation,AirConditioningInstallationHelper)
+Heating Ventilation Air Conditioning Installation Helper	ONET:HVACInstallationHelper(Heating,Ventilation,AirConditioningInstallationHelper)
 HVAC Installer	ONET:HVACInstaller(Heating,Ventilation,AndAirConditioningInstaller)
-Heating, Ventilation, Air Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AirConditioningInstaller)
-Heating, Ventilation, and Air-Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AndAir-ConditioningInstaller)
-Heating, Ventilation, and Air Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AndAirConditioningInstaller)
+Heating Ventilation Air Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AirConditioningInstaller)
+Heating Ventilation and Air-Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AndAir-ConditioningInstaller)
+Heating Ventilation and Air Conditioning Installer	ONET:HVACInstaller(Heating,Ventilation,AndAirConditioningInstaller)
 HVAC Instructor	ONET:HVACInstructor(Heating,Ventilation,AndAirConditioningInstructor)
-Heating, Ventilation, and Air Conditioning Instructor	ONET:HVACInstructor(Heating,Ventilation,AndAirConditioningInstructor)
+Heating Ventilation and Air Conditioning Instructor	ONET:HVACInstructor(Heating,Ventilation,AndAirConditioningInstructor)
 HVAC Journeyman	ONET:HVACJourneyman(Heating,Ventilation,AndAirConditioningJourneyman)
-Heating, Ventilation, and Air-Conditioning Journeyman	ONET:HVACJourneyman(Heating,Ventilation,AndAir-ConditioningJourneyman)
-Heating, Ventilation, and Air Conditioning Journeyman	ONET:HVACJourneyman(Heating,Ventilation,AndAirConditioningJourneyman)
+Heating Ventilation and Air-Conditioning Journeyman	ONET:HVACJourneyman(Heating,Ventilation,AndAir-ConditioningJourneyman)
+Heating Ventilation and Air Conditioning Journeyman	ONET:HVACJourneyman(Heating,Ventilation,AndAirConditioningJourneyman)
 HVAC Maintenance Tech	ONET:HVACMaintenanceTech(Heating,VentilationAndAirConditioningMaintenanceTechnician)
-Heating, Ventilation and Air Conditioning Maintenance Technician	ONET:HVACMaintenanceTech(Heating,VentilationAndAirConditioningMaintenanceTechnician)
+Heating Ventilation and Air Conditioning Maintenance Technician	ONET:HVACMaintenanceTech(Heating,VentilationAndAirConditioningMaintenanceTechnician)
 HVAC Mechanic	ONET:HVACMechanic(Heating,Ventilation,AndAirConditioningMechanic)
-Heating, Ventilation, Air Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AirConditioningMechanic)
-Heating, Ventilation, and Air-Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AndAir-ConditioningMechanic)
-Heating, Ventilation, and Air Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AndAirConditioningMechanic)
+Heating Ventilation Air Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AirConditioningMechanic)
+Heating Ventilation and Air-Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AndAir-ConditioningMechanic)
+Heating Ventilation and Air Conditioning Mechanic	ONET:HVACMechanic(Heating,Ventilation,AndAirConditioningMechanic)
 HVAC Operations Tech	ONET:HVACOperationsTech(Heating,VentilationAndAirConditioningOperationsTechnician)
-Heating, Ventilation and Air Conditioning Operations Technician	ONET:HVACOperationsTech(Heating,VentilationAndAirConditioningOperationsTechnician)
+Heating Ventilation and Air Conditioning Operations Technician	ONET:HVACOperationsTech(Heating,VentilationAndAirConditioningOperationsTechnician)
 HVAC-R Instructor	ONET:HVAC-RInstructor(Heating,Ventilation,AirConditioning,AndRefrigerationInstructor)
-Heating, Ventilation, Air Conditioning, And Refrigeration Instructor	ONET:HVAC-RInstructor(Heating,Ventilation,AirConditioning,AndRefrigerationInstructor)
+Heating Ventilation Air Conditioning And Refrigeration Instructor	ONET:HVAC-RInstructor(Heating,Ventilation,AirConditioning,AndRefrigerationInstructor)
 HVAC-R Service Tech	ONET:HVAC-RServiceTech(Heating,Ventilation,AirConditioning,AndRefrigerationServiceTechnician)
-Heating, Ventilation, Air Conditioning, and Refrigeration Service Technician	ONET:HVAC-RServiceTech(Heating,Ventilation,AirConditioning,AndRefrigerationServiceTechnician)
+Heating Ventilation Air Conditioning and Refrigeration Service Technician	ONET:HVAC-RServiceTech(Heating,Ventilation,AirConditioning,AndRefrigerationServiceTechnician)
 HVAC-R Tech	ONET:HVAC-RTech(Heating,Ventilation,AirConditioningAndRefrigerationTechnician)
-Heating, Ventilation, Air Conditioning and Refrigeration Technician	ONET:HVAC-RTech(Heating,Ventilation,AirConditioningAndRefrigerationTechnician)
+Heating Ventilation Air Conditioning and Refrigeration Technician	ONET:HVAC-RTech(Heating,Ventilation,AirConditioningAndRefrigerationTechnician)
 HVAC Sensor and Digital Control Designer	ONET:HVACSensorAndDigitalControlDesigner(Heating,VentilationAndAirConditioningSensorAndDigitalControlDesigner)
-Heating, Ventilation and Air Conditioning Sensor and Digital Control Designer	ONET:HVACSensorAndDigitalControlDesigner(Heating,VentilationAndAirConditioningSensorAndDigitalControlDesigner)
+Heating Ventilation and Air Conditioning Sensor and Digital Control Designer	ONET:HVACSensorAndDigitalControlDesigner(Heating,VentilationAndAirConditioningSensorAndDigitalControlDesigner)
 HVAC Service Tech	ONET:HVACServiceTech(Heating,Ventilation,AndAirConditioningServiceTechnician)
-Heating, Ventilation, and Air-Conditioning Service Technician	ONET:HVACServiceTech(Heating,Ventilation,AndAir-ConditioningServiceTechnician)
-Heating, Ventilation, and Air Conditioning Service Technician	ONET:HVACServiceTech(Heating,Ventilation,AndAirConditioningServiceTechnician)
+Heating Ventilation and Air-Conditioning Service Technician	ONET:HVACServiceTech(Heating,Ventilation,AndAir-ConditioningServiceTechnician)
+Heating Ventilation and Air Conditioning Service Technician	ONET:HVACServiceTech(Heating,Ventilation,AndAirConditioningServiceTechnician)
 HVAC Sheet Metal Installer	ONET:HVACSheetMetalInstaller(Heating,Ventilation,AndAirConditioningSheetMetalInstaller)
-Heating, Ventilation, and Air Conditioning Sheet Metal Installer	ONET:HVACSheetMetalInstaller(Heating,Ventilation,AndAirConditioningSheetMetalInstaller)
+Heating Ventilation and Air Conditioning Sheet Metal Installer	ONET:HVACSheetMetalInstaller(Heating,Ventilation,AndAirConditioningSheetMetalInstaller)
 HVAC Sheet Metal Installer Helper	ONET:HVACSheetMetalInstallerHelper
 HVAC Specialist	ONET:HVACSpecialist(Heating,Ventilation,AndAirConditioningSpecialist)
-Heating, Ventilation, and Air Conditioning Specialist	ONET:HVACSpecialist(Heating,Ventilation,AndAirConditioningSpecialist)
+Heating Ventilation and Air Conditioning Specialist	ONET:HVACSpecialist(Heating,Ventilation,AndAirConditioningSpecialist)
 HVAC Supervisor	ONET:HVACSupervisor(Heating,Ventilation,AndAirConditioningSupervisor)
-Heating, Ventilation, and Air Conditioning Supervisor	ONET:HVACSupervisor(Heating,Ventilation,AndAirConditioningSupervisor)
+Heating Ventilation and Air Conditioning Supervisor	ONET:HVACSupervisor(Heating,Ventilation,AndAirConditioningSupervisor)
 HVAC Tech	ONET:HVACTech(Heating,Ventilation,AndAirConditioningTechnician)
-Heating, Ventilation, Air Conditioning Service Technician	ONET:HVACTech(Heating,Ventilation,AirConditioningServiceTechnician)
-Heating, Ventilation, Air Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AirConditioningTechnician)
-Heating, Ventilation, and Air-Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AndAir-ConditioningTechnician)
-Heating, Ventilation, and Air Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AndAirConditioningTechnician)
+Heating Ventilation Air Conditioning Service Technician	ONET:HVACTech(Heating,Ventilation,AirConditioningServiceTechnician)
+Heating Ventilation Air Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AirConditioningTechnician)
+Heating Ventilation and Air-Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AndAir-ConditioningTechnician)
+Heating Ventilation and Air Conditioning Technician	ONET:HVACTech(Heating,Ventilation,AndAirConditioningTechnician)
 Hybrid Car Mechanic	ONET:HybridCarMechanic
 Hybrid Corn Breeder	ONET:HybridCornBreeder
 Hybrid Derivatives Trader	ONET:HybridDerivativesTrader
@@ -20592,7 +20593,7 @@ Instrument and Controls Technician	ONET:InstrumentAndControlsTechnician
 I and E Technician	ONET:InstrumentAndElectricalTechnician(IAndETechnician)
 Instrumentation and Electrical Technician	ONET:IAndETechnician(InstrumentationAndElectricalTechnician)
 I C and E Technician	ONET:ICAndETechnician(Instrumentation,Control,AndElectricalTechnician)
-Instrumentation, Control, and Electrical Technician	ONET:ICAndETechnician(Instrumentation,Control,AndElectricalTechnician)
+Instrumentation Control and Electrical Technician	ONET:ICAndETechnician(Instrumentation,Control,AndElectricalTechnician)
 Icebox Man	ONET:IceboxMan
 Icebox Worker	ONET:IceboxWorker
 Ice Carver	ONET:IceCarver
@@ -20628,9 +20629,9 @@ Ice Sculptor	ONET:IceSculptor
 Ice Skater	ONET:IceSkater
 Ice Skating Coach	ONET:IceSkatingCoach
 Ice Skating Teacher	ONET:IceSkatingTeacher
-Ice Storage, Sales, and Delivery Supervisor	ONET:IceStorage,Sales,AndDeliverySupervisor
+Ice Storage Sales and Delivery Supervisor	ONET:IceStorage,Sales,AndDeliverySupervisor
 ICE Technician	ONET:InstrumentControlAndElectricalTechnician(ICETechnician)
-Instrumentation, Controls, and Electrical Systems Technician	ONET:ICETechnician(Instrumentation,Controls,AndElectricalSystemsTechnician)
+Instrumentation Controls and Electrical Systems Technician	ONET:ICETechnician(Instrumentation,Controls,AndElectricalSystemsTechnician)
 Instrumentation Controls and Electrical Systems Technician	ONET:ICETechnician(InstrumentationControlsAndElectricalSystemsTechnician)
 Ichthyologist	ONET:Ichthyologist
 Ichthyology Teacher	ONET:IchthyologyTeacher
@@ -21394,14 +21395,14 @@ Intellectual Property Paralegal	ONET:IntellectualPropertyParalegal
 Intelligence	ONET:Intelligence
 Intelligence Agent	ONET:IntelligenceAgent
 Intelligence Analyst	ONET:IntelligenceAnalyst
-Intelligence, Applications	ONET:Intelligence,Applications
+Intelligence Applications	ONET:Intelligence,Applications
 Intelligence Chief	ONET:IntelligenceChief
 Intelligence Clerk	ONET:IntelligenceClerk
 Intelligence Manager	ONET:IntelligenceManager
-Intelligence, Mapping, Charting, and Geodesy	ONET:Intelligence,Mapping,Charting,AndGeodesy
+Intelligence Mapping Charting and Geodesy	ONET:Intelligence,Mapping,Charting,AndGeodesy
 Intelligence Officer	ONET:IntelligenceOfficer
-Intelligence Officer, Basic	ONET:IntelligenceOfficer,Basic
-Intelligence, Operations	ONET:Intelligence,Operations
+Intelligence Officer Basic	ONET:IntelligenceOfficer,Basic
+Intelligence Operations	ONET:Intelligence,Operations
 Intelligence Research Specialist	ONET:IntelligenceResearchSpecialist
 Intelligence Senior Sergeant	ONET:IntelligenceSeniorSergeant
 Intelligence Senior Sergeant/Chief Intelligence Sergeant	ONET:IntelligenceSeniorSergeant/ChiefIntelligenceSergeant
@@ -21912,7 +21913,7 @@ Joggle Press Operator	ONET:JogglePressOperator
 Joiner	ONET:Joiner
 Joiner Helper	ONET:JoinerHelper
 Joiners' Supervisor	ONET:Joiners'Supervisor
-Joint Chemical, Biological, Radiological, Nuclear Reconnaissance System Operator (JCBRNRS) LAV Operator	ONET:JointChemical,Biological,Radiological,NuclearReconnaissanceSystemOperator(JCBRNRS)LAVOperator
+Joint Chemical Biological Radiological Nuclear Reconnaissance System Operator (JCBRNRS) LAV Operator	ONET:JointChemical,Biological,Radiological,NuclearReconnaissanceSystemOperator(JCBRNRS)LAVOperator
 Joint Cleaning Machine Operator	ONET:JointCleaningMachineOperator
 Joint Cutter	ONET:JointCutter
 Jointer	ONET:Jointer
@@ -23479,7 +23480,7 @@ Livestock Farmer	ONET:LivestockFarmer
 Livestock Farm Manager	ONET:LivestockFarmManager
 Livestock Farmworker	ONET:LivestockFarmworker
 Livestock Feeder	ONET:LivestockFeeder
-Livestock, Grain, Cotton and Other Farm Products Purchasing Agent	ONET:Livestock,Grain,CottonAndOtherFarmProductsPurchasingAgent
+Livestock Grain Cotton and Other Farm Products Purchasing Agent	ONET:Livestock,Grain,CottonAndOtherFarmProductsPurchasingAgent
 Livestock Handler	ONET:LivestockHandler
 Livestock Inspector	ONET:LivestockInspector
 Livestock Laborer	ONET:LivestockLaborer
@@ -23688,7 +23689,7 @@ Log Deckman	ONET:LogDeckman
 Log Driver	ONET:LogDriver
 Log Feeder	ONET:LogFeeder
 Logger	ONET:Logger
-Logger, Driving Horses	ONET:Logger,DrivingHorses
+Logger Driving Horses	ONET:Logger,DrivingHorses
 Log Getter	ONET:LogGetter
 Logging Cable Skidder Operator	ONET:LoggingCableSkidderOperator
 Logging Clam-Bunk Operator	ONET:LoggingClam-BunkOperator
@@ -26452,7 +26453,7 @@ Motion Picture Projectionist	ONET:MotionPictureProjectionist
 Motion Pictures Cartoonist	ONET:MotionPicturesCartoonist
 Motion Picture Scene Builder	ONET:MotionPictureSceneBuilder
 Motion Picture Set Grip	ONET:MotionPictureSetGrip
-Motion Picture Sets, Studios, and Stages Set-Up Worker	ONET:MotionPictureSets,Studios,AndStagesSet-UpWorker
+Motion Picture Sets Studios and Stages Set-Up Worker	ONET:MotionPictureSets,Studios,AndStagesSet-UpWorker
 Motion Picture Set-Up Worker	ONET:MotionPictureSet-UpWorker
 Motion Study Analyst	ONET:MotionStudyAnalyst
 Motion Study Engineer	ONET:MotionStudyEngineer
@@ -26757,7 +26758,7 @@ Music Promoter	ONET:MusicPromoter
 Music Publicist	ONET:MusicPublicist
 Music Publisher	ONET:MusicPublisher
 Music Rehabilitation Therapist	ONET:MusicRehabilitationTherapist
-Music, Sound, and Light Technician	ONET:Music,Sound,AndLightTechnician
+Music Sound and Light Technician	ONET:Music,Sound,AndLightTechnician
 Music Store Manager	ONET:MusicStoreManager
 Music Supervisor	ONET:MusicSupervisor
 Music Teacher	ONET:MusicTeacher
@@ -26910,13 +26911,13 @@ Naval Aircrewman Tactical Helicopter	ONET:NavalAircrewmanTacticalHelicopter
 Naval Architect	ONET:NavalArchitect
 Naval Architect Specialist	ONET:NavalArchitectSpecialist
 Naval Engineer	ONET:NavalEngineer
-Naval Flight Officer, Airborne Reconnaissance Officer	ONET:NavalFlightOfficer,AirborneReconnaissanceOfficer
-Naval Flight Officer, Bombardier/Navigator	ONET:NavalFlightOfficer,Bombardier/Navigator
-Naval Flight Officer, Electronic Warfare Officer	ONET:NavalFlightOfficer,ElectronicWarfareOfficer
-Naval Flight Officer, Qualified Supporting Arms Coordinator	ONET:NavalFlightOfficer,QualifiedSupportingArmsCoordinator(Airborne)
+Naval Flight Officer Airborne Reconnaissance Officer	ONET:NavalFlightOfficer,AirborneReconnaissanceOfficer
+Naval Flight Officer Bombardier/Navigator	ONET:NavalFlightOfficer,Bombardier/Navigator
+Naval Flight Officer Electronic Warfare Officer	ONET:NavalFlightOfficer,ElectronicWarfareOfficer
+Naval Flight Officer Qualified Supporting Arms Coordinator	ONET:NavalFlightOfficer,QualifiedSupportingArmsCoordinator(Airborne)
 Airborne	ONET:NavalFlightOfficer,QualifiedSupportingArmsCoordinator(Airborne)
-Naval Flight Officer, Radar Intercept Officer	ONET:NavalFlightOfficer,RadarInterceptOfficer
-Naval Flight Officer, Weapons Systems Officer	ONET:NavalFlightOfficer,WeaponsSystemsOfficer
+Naval Flight Officer Radar Intercept Officer	ONET:NavalFlightOfficer,RadarInterceptOfficer
+Naval Flight Officer Weapons Systems Officer	ONET:NavalFlightOfficer,WeaponsSystemsOfficer
 Naval Gunfire Liaison Officer	ONET:NavalGunfireLiaisonOfficer
 Naval Gunfire Spotter	ONET:NavalGunfireSpotter
 Naval Inspector	ONET:NavalInspector
@@ -26925,8 +26926,8 @@ Naval Science Teacher	ONET:NavalScienceTeacher
 Naval Special Warfare Medic	ONET:NavalSpecialWarfareMedic
 Naval Surface Fire Support Planner	ONET:NavalSurfaceFireSupportPlanner
 Naval Tactical Data System--Combat Information Center Officer	ONET:NavalTacticalDataSystem--CombatInformationCenterOfficer
-Naval Tactical Data System--Combat Information Center Watch Officer, Carrier Controlled Approach Controller	ONET:NavalTacticalDataSystem--CombatInformationCenterWatchOfficer,CarrierControlledApproachController
-Naval Tactical Data System--Combat Information Center Watch Officer, General	ONET:NavalTacticalDataSystem--CombatInformationCenterWatchOfficer,General
+Naval Tactical Data System--Combat Information Center Watch Officer Carrier Controlled Approach Controller	ONET:NavalTacticalDataSystem--CombatInformationCenterWatchOfficer,CarrierControlledApproachController
+Naval Tactical Data System--Combat Information Center Watch Officer General	ONET:NavalTacticalDataSystem--CombatInformationCenterWatchOfficer,General
 Navigation Officer	ONET:NavigationOfficer
 Navigation Teacher	ONET:NavigationTeacher
 Navigator	ONET:Navigator
@@ -27663,8 +27664,8 @@ Office Messenger	ONET:OfficeMessenger
 Office Messenger Helper	ONET:OfficeMessengerHelper
 Office Nurse	ONET:OfficeNurse
 Office Rental Clerk	ONET:OfficeRentalClerk
-Officer in Charge/Assistant Officer in Charge, Combat Service Support Team	ONET:OfficerInCharge/AssistantOfficerInCharge,CombatServiceSupportTeam
-Officer in Charge, Aviation Unit or Detachment	ONET:OfficerInCharge,AviationUnitOrDetachment
+Officer in Charge/Assistant Officer in Charge Combat Service Support Team	ONET:OfficerInCharge/AssistantOfficerInCharge,CombatServiceSupportTeam
+Officer in Charge Aviation Unit or Detachment	ONET:OfficerInCharge,AviationUnitOrDetachment
 Officer in Charge of Engineering Watch	ONET:OfficerInChargeOfEngineeringWatch(OICEW)
 OICEW	ONET:OfficerInChargeOfEngineeringWatch(OICEW)
 Officer Sergeant	ONET:OfficerSergeant
@@ -27949,7 +27950,7 @@ Operations Label Clerk	ONET:OperationsLabelClerk
 Operations Logistics Analyst	ONET:OperationsLogisticsAnalyst
 Operations Manager	ONET:OperationsManager
 Operations Officer	ONET:OperationsOfficer
-Operations Officer, Afloat	ONET:OperationsOfficer,Afloat(NavalTacticalDataSystems)
+Operations Officer Afloat	ONET:OperationsOfficer,Afloat(NavalTacticalDataSystems)
 Naval Tactical Data Systems	ONET:OperationsOfficer,Afloat(NavalTacticalDataSystems)
 Operation Specialist	ONET:OperationSpecialist
 Operations Representative	ONET:OperationsRepresentative
@@ -29070,7 +29071,7 @@ Patrolman	ONET:Patrolman
 Patrol Mother	ONET:PatrolMother
 Patrol Officer	ONET:PatrolOfficer
 Patrol Park Officer	ONET:PatrolParkOfficer
-Patrol Sergeant, Sheriff's Office	ONET:PatrolSergeant,Sheriff'sOffice
+Patrol Sergeant Sheriff's Office	ONET:PatrolSergeant,Sheriff'sOffice
 Patron Attendant	ONET:PatronAttendant
 Pattern Assembler	ONET:PatternAssembler
 Patternator	ONET:Patternator
@@ -33036,9 +33037,9 @@ Reconciling Clerk	ONET:ReconcilingClerk
 Reconditioner	ONET:Reconditioner
 Reconnaissance Crewmember	ONET:ReconnaissanceCrewmember
 Reconnaissance Man	ONET:ReconnaissanceMan
-Reconnaissance Man, Combatant Diver Qualified	ONET:ReconnaissanceMan,CombatantDiverQualified
-Reconnaissance Man, Parachute and Combatant Diver Qualified	ONET:ReconnaissanceMan,ParachuteAndCombatantDiverQualified
-Reconnaissance Man, Parachutist Qualified	ONET:ReconnaissanceMan,ParachutistQualified
+Reconnaissance Man Combatant Diver Qualified	ONET:ReconnaissanceMan,CombatantDiverQualified
+Reconnaissance Man Parachute and Combatant Diver Qualified	ONET:ReconnaissanceMan,ParachuteAndCombatantDiverQualified
+Reconnaissance Man Parachutist Qualified	ONET:ReconnaissanceMan,ParachutistQualified
 Reconsignment Clerk	ONET:ReconsignmentClerk
 Reconstruction Technician	ONET:ReconstructionTechnician
 Reconstructive Dentist	ONET:ReconstructiveDentist
@@ -33547,7 +33548,7 @@ Relocation Coordinator	ONET:RelocationCoordinator
 Relocation Counselor	ONET:RelocationCounselor
 Relocation Director	ONET:RelocationDirector
 Remedial Project Manager	ONET:RemedialProjectManager
-Remedial Reading, Math, or Other Subject Teacher	ONET:RemedialReading,Math,OrOtherSubjectTeacher
+Remedial Reading Math or Other Subject Teacher	ONET:RemedialReading,Math,OrOtherSubjectTeacher
 Remediation Bioanalytics Consultant	ONET:RemediationBioanalyticsConsultant
 Remediation Consultant	ONET:RemediationConsultant
 Remediation Engineer	ONET:RemediationEngineer
@@ -36278,7 +36279,7 @@ Shingle Shearing Machine Operator	ONET:ShingleShearingMachineOperator
 Shingles Roofer	ONET:ShinglesRoofer
 Shingles Roofer Helper	ONET:ShinglesRooferHelper
 Shingle Trimmer	ONET:ShingleTrimmer
-Shipboard Chemical, Biological and Radiological-Defense (CBR-D) Operations and Training Specialist	ONET:ShipboardChemical,BiologicalAndRadiological-Defense(CBR-D)OperationsAndTrainingSpecialist
+Shipboard Chemical Biological and Radiological-Defense (CBR-D) Operations and Training Specialist	ONET:ShipboardChemical,BiologicalAndRadiological-Defense(CBR-D)OperationsAndTrainingSpecialist
 Shipboard Intelligence Analyst	ONET:ShipboardIntelligenceAnalyst
 Ship Broker	ONET:ShipBroker
 Ship Captain	ONET:ShipCaptain
@@ -37163,7 +37164,7 @@ Snag Grinder	ONET:SnagGrinder
 Snailer	ONET:Snailer
 Snake Charmer	ONET:SnakeCharmer
 Snaker	ONET:Snaker
-Snaker, Driving Horses	ONET:Snaker,DrivingHorses
+Snaker Driving Horses	ONET:Snaker,DrivingHorses
 Snapper	ONET:Snapper
 Snap Shearer	ONET:SnapShearer
 Sneller	ONET:Sneller
@@ -37582,12 +37583,12 @@ Spa Associate	ONET:SpaAssociate
 Spa Attendant	ONET:SpaAttendant
 Space and Missile Defense Operations	ONET:SpaceAndMissileDefenseOperations
 Space And Missile Operations	ONET:SpaceAndMissileOperations
-Space and Missile Operations, Missile Combat Crew	ONET:SpaceAndMissileOperations,MissileCombatCrew
-Space And Missile Operations, Satellite Command And Control	ONET:SpaceAndMissileOperations,SatelliteCommandAndControl
-Space And Missile Operations, Spacelift	ONET:SpaceAndMissileOperations,Spacelift
-Space And Missile Operations, Space Surveillance	ONET:SpaceAndMissileOperations,SpaceSurveillance
-Space And Missile Operations, Space Warning	ONET:SpaceAndMissileOperations,SpaceWarning
-Space and Missile Operations, Tactical Airlift	ONET:SpaceAndMissileOperations,TacticalAirlift
+Space and Missile Operations Missile Combat Crew	ONET:SpaceAndMissileOperations,MissileCombatCrew
+Space And Missile Operations Satellite Command And Control	ONET:SpaceAndMissileOperations,SatelliteCommandAndControl
+Space And Missile Operations Spacelift	ONET:SpaceAndMissileOperations,Spacelift
+Space And Missile Operations Space Surveillance	ONET:SpaceAndMissileOperations,SpaceSurveillance
+Space And Missile Operations Space Warning	ONET:SpaceAndMissileOperations,SpaceWarning
+Space and Missile Operations Tactical Airlift	ONET:SpaceAndMissileOperations,TacticalAirlift
 Space Battery Technician	ONET:SpaceBatteryTechnician
 Space Buyer	ONET:SpaceBuyer
 Space Clerk	ONET:SpaceClerk
@@ -37931,7 +37932,7 @@ Sports Editor	ONET:SportsEditor
 Sports Equipment Racker	ONET:SportsEquipmentRacker
 Sports Equipment Repairer	ONET:SportsEquipmentRepairer
 Sports Equipment Supervisor	ONET:SportsEquipmentSupervisor
-Sports, Fitness, and Wellness Director	ONET:Sports,Fitness,AndWellnessDirector
+Sports Fitness and Wellness Director	ONET:Sports,Fitness,AndWellnessDirector
 Sport Shoe Spike Assembler	ONET:SportShoeSpikeAssembler
 Sports Journalist	ONET:SportsJournalist
 Sports Lawyer	ONET:SportsLawyer
@@ -39114,7 +39115,7 @@ Supervising Fire Marshal	ONET:SupervisingFireMarshal
 Supervisor	ONET:Supervisor
 Supervisor Grower	ONET:SupervisorGrower
 Supervisor of Communications	ONET:SupervisorOfCommunications
-Supervisor, Road, Administrator	ONET:Supervisor,Road,Administrator
+Supervisor Road Administrator	ONET:Supervisor,Road,Administrator
 Supervisory Air Intercept Controller	ONET:SupervisoryAirInterceptController
 Supervisory Control and Data Acquisition Security Analyst	ONET:SupervisoryControlAndDataAcquisitionSecurityAnalyst(SCADASecurityAnalyst)
 SCADA Security Analyst	ONET:SupervisoryControlAndDataAcquisitionSecurityAnalyst(SCADASecurityAnalyst)
@@ -39917,7 +39918,7 @@ Technical Training Instructor	ONET:TechnicalTrainingInstructor
 Technical Translator	ONET:TechnicalTranslator
 Technical Writer	ONET:TechnicalWriter
 Technician	ONET:Technician
-Technician, Biological, Health	ONET:Technician,Biological,Health
+Technician Biological Health	ONET:Technician,Biological,Health
 Technician's Helper	ONET:Technician'sHelper
 Technician Support Engineer	ONET:TechnicianSupportEngineer
 Technician Writer	ONET:TechnicianWriter
@@ -40907,7 +40908,7 @@ Tool Shaper Set-Up Operator	ONET:ToolShaperSet-UpOperator
 Tool Shaper Setup Operator	ONET:ToolShaperSetupOperator
 Tool Sharpener	ONET:ToolSharpener
 Toolsmith	ONET:Toolsmith
-Tools, Supplies, and Equipment Purchasing Agent	ONET:Tools,Supplies,AndEquipmentPurchasingAgent
+Tools Supplies and Equipment Purchasing Agent	ONET:Tools,Supplies,AndEquipmentPurchasingAgent
 Tool Storage Attendant	ONET:ToolStorageAttendant
 Tool Straightener	ONET:ToolStraightener
 Tool Technician	ONET:ToolTechnician
@@ -41496,7 +41497,7 @@ Treatment Coordinator	ONET:TreatmentCoordinator
 Treatment Counselor	ONET:TreatmentCounselor
 Treatment Plant Mechanic	ONET:TreatmentPlantMechanic
 Treatment Specialist	ONET:TreatmentSpecialist
-Treatment, Storage, and Disposal Facility Technician	ONET:Treatment,Storage,AndDisposalFacilityTechnician(TSDFTechnician)
+Treatment Storage and Disposal Facility Technician	ONET:Treatment,Storage,AndDisposalFacilityTechnician(TSDFTechnician)
 TSDF Technician	ONET:Treatment,Storage,AndDisposalFacilityTechnician(TSDFTechnician)
 Tree and Shrub Technician	ONET:TreeAndShrubTechnician
 Tree and Shrub Worker	ONET:TreeAndShrubWorker
@@ -41629,7 +41630,7 @@ Truck Bench Mechanic	ONET:TruckBenchMechanic
 Truck Body Builder	ONET:TruckBodyBuilder
 Truck Body Repairer	ONET:TruckBodyRepairer
 Truck Bracer	ONET:TruckBracer
-Truck, Car, and Bus Cleaner	ONET:Truck,Car,AndBusCleaner
+Truck Car and Bus Cleaner	ONET:Truck,Car,AndBusCleaner
 Truck Caterer	ONET:TruckCaterer
 Truck Chauffeur	ONET:TruckChauffeur
 Truck Cleaner	ONET:TruckCleaner
@@ -41664,7 +41665,7 @@ Truck Packer	ONET:TruckPacker
 Truck Rental Dispatcher	ONET:TruckRentalDispatcher
 Truck Repair Supervisor	ONET:TruckRepairSupervisor
 Truck Safety Inspector	ONET:TruckSafetyInspector
-Trucks, Cabs, and Buses Dispatcher Supervisor	ONET:Trucks,Cabs,AndBusesDispatcherSupervisor
+Trucks Cabs and Buses Dispatcher Supervisor	ONET:Trucks,Cabs,AndBusesDispatcherSupervisor
 Trucksmith	ONET:Trucksmith
 Truck Spotter	ONET:TruckSpotter
 Truck Striker	ONET:TruckStriker
@@ -43241,7 +43242,7 @@ Weapons Mechanic	ONET:WeaponsMechanic
 Weapons Military Characteristics Officer	ONET:WeaponsMilitaryCharacteristicsOfficer
 Weapons Officer	ONET:WeaponsOfficer(FleetBallisticMissiles)
 Fleet Ballistic Missiles	ONET:WeaponsOfficer(FleetBallisticMissiles)
-Weapons Officer, Naval Activity	ONET:WeaponsOfficer,NavalActivity
+Weapons Officer Naval Activity	ONET:WeaponsOfficer,NavalActivity
 Weapons System Instrument Mechanic	ONET:WeaponsSystemInstrumentMechanic
 Wearing Apparel Shaker	ONET:WearingApparelShaker
 Weasand Trimmer	ONET:WeasandTrimmer
@@ -43411,7 +43412,7 @@ Welder Operator	ONET:WelderOperator
 Welder Technician	ONET:WelderTechnician(WelderTech)
 Welder Tech	ONET:WelderTechnician(WelderTech)
 Weld Fitter	ONET:WeldFitter
-Welding, Brazing, and Burning Machine Repairer	ONET:Welding,Brazing,AndBurningMachineRepairer
+Welding Brazing and Burning Machine Repairer	ONET:Welding,Brazing,AndBurningMachineRepairer
 Welding Engineer	ONET:WeldingEngineer
 Welding Equipment Repairer	ONET:WeldingEquipmentRepairer
 Welding Equipment Repairer Supervisor	ONET:WeldingEquipmentRepairerSupervisor
@@ -44180,7 +44181,7 @@ Yachtsman	ONET:Yachtsman
 Yam Curer	ONET:YamCurer
 Yardage Control Clerk	ONET:YardageControlClerk
 Yardage Control Operator	ONET:YardageControlOperator
-Yardage Control Operator, Forming	ONET:YardageControlOperator,Forming
+Yardage Control Operator Forming	ONET:YardageControlOperator,Forming
 Yardage Estimator	ONET:YardageEstimator
 Yard Assistant	ONET:YardAssistant
 Yard Attendant	ONET:YardAttendant

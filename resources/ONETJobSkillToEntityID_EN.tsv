@@ -1,3 +1,4 @@
+Skill	EntityID
 0-1 drop indicators	ONET:0-1DropIndicators
 1003 Uniform Residential Loan Application	ONET:1003UniformResidentialLoanApplication
 100-foot measuring tapes	ONET:100-footMeasuringTapes
@@ -35,7 +36,7 @@
 2-point sprayers	ONET:2-pointSprayers
 2-prong strainers	ONET:2-prongStrainers
 30-ton clam buckets	ONET:30-tonClamBuckets
-3, 4, and 5 stopcock manifolds	ONET:3,4,And5StopcockManifolds
+3 4 and 5 stopcock manifolds	ONET:3,4,And5StopcockManifolds
 35 millimeter cameras	ONET:35MillimeterCameras
 35m petri dishes	ONET:35mPetriDishes
 360 Analytics eQUEST	ONET:360AnalyticsEQUEST
@@ -287,7 +288,7 @@ Adenoid sphygmomanometers	ONET:AdenoidSphygmomanometers
 Adeptia ETL Suite	ONET:AdeptiaETLSuite
 Adept Scientific GRAMS	ONET:AdeptScientificGRAMS
 Aderant CompuLaw	ONET:AderantCompuLaw
-ADERANT Expert Back Office, Powered by Keystone	ONET:ADERANTExpertBackOffice,PoweredByKeystone
+ADERANT Expert Back Office Powered by Keystone	ONET:ADERANTExpertBackOffice,PoweredByKeystone
 ADERANT Expert Matter Center	ONET:ADERANTExpertMatterCenter
 Adexa eGPS Suite	ONET:AdexaEGPSSuite
 Adexa Supply Chain Planning	ONET:AdexaSupplyChainPlanning
@@ -343,7 +344,7 @@ Adjustment tables	ONET:AdjustmentTables
 ADL Data Systems OptimumClinicals Electronic Health Record	ONET:ADLDataSystemsOptimumClinicalsElectronicHealthRecord
 Adlib Express	ONET:AdlibExpress
 Adlib Information Systems Adlib Archive	ONET:AdlibInformationSystemsAdlibArchive
-Admissions, discharge, and transfer ADT software	ONET:Admissions,Discharge,AndTransferADTSoftware
+Admissions discharge and transfer ADT software	ONET:Admissions,Discharge,AndTransferADTSoftware
 ADMS pollution modeling software	ONET:ADMSPollutionModelingSoftware
 Adobe Systems Adobe Acrobat	ONET:AdobeSystemsAdobeAcrobat
 Adobe Systems Adobe Acrobat Pro Extended	ONET:AdobeSystemsAdobeAcrobatProExtended
@@ -455,7 +456,7 @@ Advantos Systems DataTrust Enterprise	ONET:AdvantosSystemsDataTrustEnterprise
 Advent Axys	ONET:AdventAxys
 AdviceAmerica AdvisorVision	ONET:AdviceAmericaAdvisorVision
 Advisory World ICE	ONET:AdvisoryWorldICE
-Adxstudio, for Microsoft	ONET:Adxstudio,ForMicrosoft
+Adxstudio for Microsoft	ONET:Adxstudio,ForMicrosoft
 AEC Design Group CADPIPE	ONET:AECDesignGroupCADPIPE
 AEC Software FastTrack Schedule	ONET:AECSoftwareFastTrackSchedule
 AEMC DataView	ONET:AEMCDataView
@@ -1233,7 +1234,7 @@ AppointmentQuest Online Appointment Manager	ONET:AppointmentQuestOnlineAppointme
 AppointmentQuest Online Appointment Scheduler	ONET:AppointmentQuestOnlineAppointmentScheduler
 Appointment scheduling software	ONET:AppointmentSchedulingSoftware
 Appointment Search	ONET:AppointmentSearch
-Appraisal, mapping, and comparison data reporting systems	ONET:Appraisal,Mapping,AndComparisonDataReportingSystems
+Appraisal mapping and comparison data reporting systems	ONET:Appraisal,Mapping,AndComparisonDataReportingSystems
 Appraisal software	ONET:AppraisalSoftware
 Approach detection systems	ONET:ApproachDetectionSystems
 App Software Associations AppTrak.net	ONET:AppSoftwareAssociationsAppTrak.net
@@ -3168,7 +3169,7 @@ Buck saws	ONET:BuckSaws
 Bucks extensions	ONET:BucksExtensions
 Bucks traction equipment	ONET:BucksTractionEquipment
 Budding knives	ONET:BuddingKnives
-Budgeting, forecasting, and planning software	ONET:Budgeting,Forecasting,AndPlanningSoftware
+Budgeting forecasting and planning software	ONET:Budgeting,Forecasting,AndPlanningSoftware
 Budgeting software	ONET:BudgetingSoftware
 Budget monitoring systems	ONET:BudgetMonitoringSystems
 Buffer brushes	ONET:BufferBrushes
@@ -6187,7 +6188,7 @@ Dent hammers	ONET:DentHammers
 DentiMax	ONET:DentiMax
 Dent machines	ONET:DentMachines
 Dent pullers	ONET:DentPullers
-Denture, acrylic and porcelain polishing kits	ONET:Denture,AcrylicAndPorcelainPolishingKits
+Denture acrylic and porcelain polishing kits	ONET:Denture,AcrylicAndPorcelainPolishingKits
 Denture model presses	ONET:DentureModelPresses
 Deoxyribonucleic acid DNA analyzers	ONET:DeoxyribonucleicAcidDNAAnalyzers
 Deoxyribonucleic acid DNA collection kits	ONET:DeoxyribonucleicAcidDNACollectionKits
@@ -7299,7 +7300,7 @@ Ebenefits Solutions Benefits Management	ONET:EbenefitsSolutionsBenefitsManagemen
 Ebert-Fastie spectrometers	ONET:Ebert-FastieSpectrometers
 EBSCO Information Services Academic Search Premier	ONET:EBSCOInformationServicesAcademicSearchPremier
 EBSCO Information Services Library Literature and Information Science Index	ONET:EBSCOInformationServicesLibraryLiteratureAndInformationScienceIndex
-EBSCO Library, Information Science, and Technology Abstracts LISTSA	ONET:EBSCOLibrary,InformationScience,AndTechnologyAbstractsLISTSA
+EBSCO Library Information Science and Technology Abstracts LISTSA	ONET:EBSCOLibrary,InformationScience,AndTechnologyAbstractsLISTSA
 EBSCO OmniFile FullText Mega	ONET:EBSCOOmniFileFullTextMega
 EBSCO Publishing Academic Search Premier	ONET:EBSCOPublishingAcademicSearchPremier
 EBSCO Publishing Political Science Complete	ONET:EBSCOPublishingPoliticalScienceComplete
@@ -10238,7 +10239,7 @@ goQ WordQ	ONET:GoQWordQ
 Gothic arch tracers	ONET:GothicArchTracers
 Gouge elevators	ONET:GougeElevators
 Gouges	ONET:Gouges
-Governance, risk, and compliance GRC software	ONET:Governance,Risk,AndComplianceGRCSoftware
+Governance risk and compliance GRC software	ONET:Governance,Risk,AndComplianceGRCSoftware
 Governor test stands	ONET:GovernorTestStands
 Govern Software GovMap	ONET:GovernSoftwareGovMap
 Govern Software Land and Permits Management System	ONET:GovernSoftwareLandAndPermitsManagementSystem
@@ -11794,7 +11795,7 @@ IBM Software Configuration and Library Manager SCLM	ONET:IBMSoftwareConfiguratio
 IBM SPSS Amos	ONET:IBMSPSSAmos
 IBM SPSS AnswerTree	ONET:IBMSPSSAnswerTree
 IBM SPSS Statistics	ONET:IBMSPSSStatistics
-IBM Sterling Configure, Price, Quote	ONET:IBMSterlingConfigure,Price,Quote
+IBM Sterling Configure Price Quote	ONET:IBMSterlingConfigure,Price,Quote
 IBM Tivoli Access Management TAM	ONET:IBMTivoliAccessManagementTAM
 IBM Tivoli Identity Management TIM	ONET:IBMTivoliIdentityManagementTIM
 IBM Tivoli NetView Distribution Manager	ONET:IBMTivoliNetViewDistributionManager
@@ -12619,7 +12620,7 @@ ipconfig	ONET:Ipconfig
 IpFilter	ONET:IpFilter
 iPhotoMEASURE	ONET:IPhotoMEASURE
 iPro	ONET:IPro
-IPro Restaurant Inventory, Recipe & Menu Software	ONET:IProRestaurantInventory,Recipe&MenuSoftware
+IPro Restaurant Inventory Recipe & Menu Software	ONET:IProRestaurantInventory,Recipe&MenuSoftware
 IP security cameras	ONET:IPSecurityCameras
 IPS of Boston DoubleCheck	ONET:IPSOfBostonDoubleCheck
 IPS-Sendero Relationship Profitability Manager Catalyst	ONET:IPS-SenderoRelationshipProfitabilityManagerCatalyst
@@ -16231,13 +16232,13 @@ Network directory services software	ONET:NetworkDirectoryServicesSoftware
 Network documentation software	ONET:NetworkDocumentationSoftware
 Network file servers	ONET:NetworkFileServers
 Network flow modeling software	ONET:NetworkFlowModelingSoftware
-Network, hardware, and software auditing software	ONET:Network,Hardware,AndSoftwareAuditingSoftware
+Network hardware and software auditing software	ONET:Network,Hardware,AndSoftwareAuditingSoftware
 Network Instruments Observer Standard	ONET:NetworkInstrumentsObserverStandard
 Network interface cards NIC	ONET:NetworkInterfaceCardsNIC
 Network intrusion detection software	ONET:NetworkIntrusionDetectionSoftware
 Network intrusion prevention systems NIPS	ONET:NetworkIntrusionPreventionSystemsNIPS
 Network management software	ONET:NetworkManagementSoftware
-Network modeling, mapping, and analysis software	ONET:NetworkModeling,Mapping,AndAnalysisSoftware
+Network modeling mapping and analysis software	ONET:NetworkModeling,Mapping,AndAnalysisSoftware
 Network monitoring software	ONET:NetworkMonitoringSoftware
 Network multimeters	ONET:NetworkMultimeters
 Network protocol analyzers	ONET:NetworkProtocolAnalyzers
@@ -16245,7 +16246,7 @@ Network reporting software	ONET:NetworkReportingSoftware
 Network routers	ONET:NetworkRouters
 Network Science IR Mentor Pro	ONET:NetworkScienceIRMentorPro
 Network security auditing software	ONET:NetworkSecurityAuditingSoftware
-Network, server and operating system optimization software	ONET:Network,ServerAndOperatingSystemOptimizationSoftware
+Network server and operating system optimization software	ONET:Network,ServerAndOperatingSystemOptimizationSoftware
 Network server load balancers	ONET:NetworkServerLoadBalancers
 Network shutdown software	ONET:NetworkShutdownSoftware
 Network storage arrays	ONET:NetworkStorageArrays
@@ -16701,7 +16702,7 @@ OpenStack	ONET:OpenStack
 Open Systems TRAVERSE	ONET:OpenSystemsTRAVERSE
 OpenTable	ONET:OpenTable
 OpenText eDOCS DM	ONET:OpenTextEDOCSDM
-Open Text Fax Server, RightFax Edition	ONET:OpenTextFaxServer,RightFaxEdition
+Open Text Fax Server RightFax Edition	ONET:OpenTextFaxServer,RightFaxEdition
 OpenText Livelink ECM	ONET:OpenTextLivelinkECM
 Open Text Web Solutions	ONET:OpenTextWebSolutions
 Operating log software	ONET:OperatingLogSoftware
@@ -16849,7 +16850,7 @@ Oracle E-Business Suite Logistics	ONET:OracleE-BusinessSuiteLogistics
 Oracle e-Business Suite Supply Chain Management	ONET:OracleE-BusinessSuiteSupplyChainManagement
 Oracle Eloqua	ONET:OracleEloqua
 Oracle Enterprise Asset Management eAM	ONET:OracleEnterpriseAssetManagementEAM
-Oracle Enterprise Governance, Risk, and Compliance Manager	ONET:OracleEnterpriseGovernance,Risk,AndComplianceManager
+Oracle Enterprise Governance Risk and Compliance Manager	ONET:OracleEnterpriseGovernance,Risk,AndComplianceManager
 Oracle Enterprise Manager	ONET:OracleEnterpriseManager
 Oracle Enterprise Manager Cloud Control	ONET:OracleEnterpriseManagerCloudControl
 Oracle Essbase	ONET:OracleEssbase
@@ -19104,7 +19105,7 @@ Propeller Multimedia React2	ONET:PropellerMultimediaReact2
 Propeller wrenches	ONET:PropellerWrenches
 PropertyBoss Solutions PropertyBoss	ONET:PropertyBossSolutionsPropertyBoss
 Property Boulevard	ONET:PropertyBoulevard
-Property damage, bodily injury, and liability estimation software	ONET:PropertyDamage,BodilyInjury,AndLiabilityEstimationSoftware
+Property damage bodily injury and liability estimation software	ONET:PropertyDamage,BodilyInjury,AndLiabilityEstimationSoftware
 PropertyInfo SureClose	ONET:PropertyInfoSureClose
 Property Insight TitlePoint	ONET:PropertyInsightTitlePoint
 Property management system PMS	ONET:PropertyManagementSystemPMS
@@ -19890,7 +19891,7 @@ Refrigeration thermometers	ONET:RefrigerationThermometers
 Refrigeration units	ONET:RefrigerationUnits
 Refrigerators	ONET:Refrigerators
 Refrigerator thermometers	ONET:RefrigeratorThermometers
-Refugee, Asylum and Parole System RAPS	ONET:Refugee,AsylumAndParoleSystemRAPS
+Refugee Asylum and Parole System RAPS	ONET:Refugee,AsylumAndParoleSystemRAPS
 Refuse collection trucks	ONET:RefuseCollectionTrucks
 Regional Energy Deployment System ReEDS	ONET:RegionalEnergyDeploymentSystemReEDS
 Register transfer language RTL	ONET:RegisterTransferLanguageRTL
@@ -20636,7 +20637,7 @@ Safety glasses	ONET:SafetyGlasses
 Safety gloves	ONET:SafetyGloves
 Safety goggles	ONET:SafetyGoggles
 Safety harnesses	ONET:SafetyHarnesses
-Safety, health, and environmental management software	ONET:Safety,Health,AndEnvironmentalManagementSoftware
+Safety health and environmental management software	ONET:Safety,Health,AndEnvironmentalManagementSoftware
 Safety helmets	ONET:SafetyHelmets
 Safety hoods	ONET:SafetyHoods
 Safety hooks	ONET:SafetyHooks
@@ -25169,7 +25170,7 @@ Urometers	ONET:Urometers
 Usability testing software	ONET:UsabilityTestingSoftware
 USDA Child Nutrition Database	ONET:USDAChildNutritionDatabase
 USDA Comet	ONET:USDAComet
-USDA Database for Inventory, Monitoring and Assessment	ONET:USDADatabaseForInventory,MonitoringAndAssessment(DIMA)
+USDA Database for Inventory Monitoring and Assessment	ONET:USDADatabaseForInventory,MonitoringAndAssessment(DIMA)
 DIMA	ONET:USDADatabaseForInventory,MonitoringAndAssessment(DIMA)
 USDA Forest Vegetation Simulator FVS	ONET:USDAForestVegetationSimulatorFVS
 USDA NRCS Soil Data Viewer	ONET:USDANRCSSoilDataViewer
@@ -26679,7 +26680,7 @@ Yarding grapples	ONET:YardingGrapples
 Yardi software	ONET:YardiSoftware
 Yardi Systems Yardi Enterprise	ONET:YardiSystemsYardiEnterprise
 Yardi Systems Yardi Voyager Commercial	ONET:YardiSystemsYardiVoyagerCommercial
-Yardi Systems Yardi Voyager Condo, Co-op, and HOA	ONET:YardiSystemsYardiVoyagerCondo,Co-op,AndHOA
+Yardi Systems Yardi Voyager Condo Co-op and HOA	ONET:YardiSystemsYardiVoyagerCondo,Co-op,AndHOA
 Yardi Systems Yardi Voyager Residential	ONET:YardiSystemsYardiVoyagerResidential
 Yard sticks	ONET:YardSticks
 Yarn feeders	ONET:YarnFeeders
