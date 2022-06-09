@@ -46,20 +46,20 @@ grammar DSL::Entity::Jobs::Grammar
     method set-resources(DSL::Entity::Jobs::ResourceAccess $obj) { $resources = $obj; }
 
     # TOP
-    rule TOP {
+    regex TOP {
         <pipeline-command> |
         <job-entity-spec-list> |
         <recommend-for-job-command> |
         <data-query-command>
     }
 
-    rule job-entity-spec { <entity-job-title> | <entity-job-skill> }
+    regex job-entity-spec { <entity-job-title> | <entity-job-skill> }
 
-    rule job-entity-spec-list { <job-entity-spec>+ % <.list-separator> }
+    regex job-entity-spec-list { <job-entity-spec>+ % <.list-separator> }
 
-    rule recommend-for-job-command { 'i' [ 'want' | 'am' 'interested' 'in']  [ 'talent' | 'recruitas' | 'people'] [ <for-preposition> | <with-preposition> | 'that' 'fit'] <job-entity-spec-list> }
+    regex recommend-for-job-command { 'i' \h+ [ 'want' | 'am' \h+ 'interested' \h+ 'in'] \h+  [ 'talent' | 'recruitas' | 'people'] \h+ [ <for-preposition> | <with-preposition> | 'that' \h+  'fit'] \h+  <job-entity-spec-list> }
 
-    rule data-query-command { [ 'how' 'many' | 'what' 'count' ] .'of' <job-entity-command> 'is' 'in' 'my' [ 'database' | 'catalog' ] }
+    regex data-query-command { [ 'how' \h+ 'many' | 'what' \h+ 'count' ] \h+ .'of' \h+ <job-entity-command> \h+ 'is' \h+  'in' \h+  'my' \h+ [ 'database' | 'catalog' ] }
 
 }
 
