@@ -62,7 +62,7 @@ multi ToJobEntityCode( Str $command, Str $target = 'WL-System', *%args ) {
 }
 
 #-----------------------------------------------------------
-$resourceObj = BEGIN {
+$resourceObj := BEGIN {
     my DSL::Entity::Jobs::ResourceAccess $obj .= new;
     $obj.ingest-resource-files("\t");
     $obj
