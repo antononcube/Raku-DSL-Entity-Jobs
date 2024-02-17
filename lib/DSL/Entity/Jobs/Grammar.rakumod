@@ -36,9 +36,15 @@ use DSL::Shared::Roles::ErrorHandling;
 use DSL::Entity::Jobs::Grammar::EntityNames;
 use DSL::Entity::Jobs::ResourceAccess;
 
+use DSL::Shared::Entity::Grammar::EntityNames;
+use DSL::Shared::Roles::English::PipelineCommand;
+use DSL::Shared::Utilities::FuzzyMatching;
+
 grammar DSL::Entity::Jobs::Grammar
-        does DSL::Shared::Roles::ErrorHandling
-        does DSL::Entity::Jobs::Grammar::EntityNames {
+        does DSL::Entity::Jobs::Grammar::EntityNames
+        does DSL::Shared::Entity::Grammar::EntityNames
+        does DSL::Shared::Roles::English::PipelineCommand
+        does DSL::Shared::Roles::ErrorHandling {
 
     my DSL::Entity::Jobs::ResourceAccess $resources;
 

@@ -64,4 +64,9 @@ class DSL::Entity::Jobs::Actions::WL::System
         my $nm = $!resources.name-to-entity-id('Skill', $/.Str.lc, :!warn);
         make '"' ~ $nm ~ '"';
     }
+
+    method entity-job-title-start($/) {
+        my $nm = $!resources.name-to-entity-id('Title', $/.Str.lc, :!warn);
+        make '"' ~ $nm ~ '"';
+    }
 }
