@@ -18,6 +18,7 @@ unit module DSL::Entity::Jobs;
 use DSL::Shared::Utilities::CommandProcessing;
 
 use DSL::Entity::Jobs::Grammar;
+use DSL::Entity::Jobs::Actions::Raku::System;
 use DSL::Entity::Jobs::Actions::WL::System;
 
 use DSL::Entity::Jobs::Actions::Bulgarian::Standard;
@@ -26,6 +27,8 @@ use DSL::Entity::Jobs::Actions::Bulgarian::Standard;
 #| Target to actions rules
 my %targetToAction{Str} =
     "Mathematica"      => DSL::Entity::Jobs::Actions::WL::System,
+    "Raku"             => DSL::Entity::Jobs::Actions::Raku::System,
+    "Raku-System"      => DSL::Entity::Jobs::Actions::Raku::System,
     "WL"               => DSL::Entity::Jobs::Actions::WL::System,
     "WL-System"        => DSL::Entity::Jobs::Actions::WL::System,
     "Bulgarian"        => DSL::Entity::Jobs::Actions::Bulgarian::Standard;

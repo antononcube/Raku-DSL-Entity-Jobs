@@ -4,7 +4,7 @@ use DSL::Entity::Foods::Grammar;
 use DSL::Entity::Foods::ResourceAccess;
 use DSL::Shared::Actions::English::Raku::PipelineCommand;
 use DSL::Shared::Entity::Actions::Raku::System;
-
+use DSL::Entity::Jobs::Actions::WL::System;
 
 class DSL::Entity::Jobs::Actions::Raku::System
         is DSL::Entity::Jobs::Actions::WL::System
