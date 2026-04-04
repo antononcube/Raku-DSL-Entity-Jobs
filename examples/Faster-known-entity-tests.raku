@@ -1,6 +1,5 @@
 #!/usr/bin/env perl6
-use lib './lib';
-use lib '.';
+ # use lib <. lib>;
 use DSL::Entity::Jobs;
 
 my $pCOMMAND = DSL::Entity::Jobs::Grammar;
