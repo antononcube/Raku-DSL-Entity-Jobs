@@ -41,10 +41,6 @@ use DSL::Entity::Jobs;
 say ToJobEntityCode('software architect');
 say ToJobEntityCode('academic success coach', 'Raku-System');
 ```
-```
-# "ONET:SoftwareArchitect"
-# "AcademicSuccessCoach"
-```
 
 ### Grammar parsing
 
@@ -56,31 +52,9 @@ $pCOMMAND.set-resources(DSL::Entity::Jobs::resource-access-object());
 
 $pCOMMAND.parse('freelance web content writer', rule => 'job-entity-spec');
 ```
-```
-# ｢freelance web content writer｣
-#  entity-job-title => ｢freelance web content writer｣
-#   0 => ｢freelance web content writer｣
-#    entity-name-part => ｢freelance｣
-#    entity-name-part => ｢web｣
-#    entity-name-part => ｢content｣
-#    entity-name-part => ｢writer｣
-```
 
 ```raku
 $pCOMMAND.parse('i want talent for freelance web content writer');
-```
-```
-# ｢i want talent for freelance web content writer｣
-#  recommend-for-job-command => ｢i want talent for freelance web content writer｣
-#   for-preposition => ｢for｣
-#   job-entity-spec-list => ｢freelance web content writer｣
-#    job-entity-spec => ｢freelance web content writer｣
-#     entity-job-title => ｢freelance web content writer｣
-#      0 => ｢freelance web content writer｣
-#       entity-name-part => ｢freelance｣
-#       entity-name-part => ｢web｣
-#       entity-name-part => ｢content｣
-#       entity-name-part => ｢writer｣
 ```
 
 ## References
