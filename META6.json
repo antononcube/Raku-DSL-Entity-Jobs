@@ -5,7 +5,7 @@
     "authors": [
         "Anton Antonov"
     ],
-    "auth": "github:antononcube",
+    "auth": "zef:antononcube",
     "depends": [
         "DSL::Shared"
     ],
@@ -20,6 +20,8 @@
         "DSL::Entity::Jobs::ResourceAccess": "lib/DSL/Entity/Jobs/ResourceAccess.rakumod"
     },
     "resources": [
+        "JobSkills.txt",
+        "JobTitles.txt",
         "JobTitleToEntityID_EN.tsv",
         "JobSkillToEntityID_EN.tsv",
         "ONETJobSkillToEntityID_EN.tsv",
