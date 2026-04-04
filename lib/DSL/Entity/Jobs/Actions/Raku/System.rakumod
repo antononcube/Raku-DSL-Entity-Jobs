@@ -11,7 +11,8 @@ class DSL::Entity::Jobs::Actions::Raku::System
     ## Grammar methods
     ##========================================================
 
-    method TOP($/) {
-        make self.DSL::Entity::Jobs::Actions::WL::System::TOP($/).made;
-    }
+#    method TOP($/) {
+#        my $res = self.DSL::Entity::Jobs::Actions::WL::System::TOP($/);
+#        make $res;
+#    }
 }
