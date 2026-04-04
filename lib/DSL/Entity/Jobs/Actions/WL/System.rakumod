@@ -5,7 +5,7 @@ use DSL::Shared::Actions::English::WL::PipelineCommand;
 class DSL::Entity::Jobs::Actions::WL::System
         is DSL::Shared::Actions::English::WL::PipelineCommand {
 
-    has  DSL::Entity::Jobs::ResourceAccess $.resources;
+    has DSL::Entity::Jobs::ResourceAccess $.resources;
 
     ##========================================================
     ## Grammar methods
