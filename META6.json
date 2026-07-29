@@ -1,7 +1,7 @@
 {
     "name": "DSL::Entity::Jobs",
     "description": "Grammars for jobs entities: titles, skills, acronyms, keywords, etc.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "authors": [
         "Anton Antonov"
     ],
