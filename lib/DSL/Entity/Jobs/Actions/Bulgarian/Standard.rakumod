@@ -3,8 +3,6 @@ use DSL::Entity::Jobs::Grammar;
 use DSL::Shared::Actions::English::WL::PipelineCommand;
 use DSL::Shared::Actions::CommonStructures;
 
-unit module DSL::Entity::Jobs::Actions::Bulgarian::Standard;
-
 class DSL::Entity::Jobs::Actions::Bulgarian::Standard
         is DSL::Shared::Actions::CommonStructures {
 
